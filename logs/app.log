@@ -269,3 +269,10 @@
 2025-03-29 15:22:56.971 | ERROR    | src.ui.api_test_widget:query_map:633 - 查询地图失败: 'RobotAPI' object has no attribute 'get'
 2025-03-29 15:23:34.444 | ERROR    | src.ui.api_test_widget:query_lora:655 - 查询Lora状态失败: 'RobotAPI' object has no attribute 'get'
 2025-03-29 15:24:27.628 | INFO     | src.ui.connection_widget:handle_connection:212 - 已连接到设备 10.160.129.66:1448
+2025-03-29 15:47:47.386 | INFO     | src.ui.connection_widget:handle_connection:212 - 已连接到设备 10.160.129.66:1448
+2025-03-29 15:49:33.742 | INFO     | src.ui.connection_widget:handle_connection:234 - 已断开设备连接
+2025-03-29 15:49:35.033 | INFO     | src.ui.connection_widget:handle_connection:212 - 已连接到设备 10.160.129.66:1448
+2025-03-29 15:51:05.761 | INFO     | src.ui.api_test_widget:generate_landing_pose:366 - 正在生成Landing Pose: 距离=1.0, 反向=True
+2025-03-29 15:51:05.809 | INFO     | src.ui.api_test_widget:generate_landing_pose:388 - Landing Pose生成完成
+2025-03-29 15:53:19.236 | INFO     | src.ui.api_test_widget:lift_shelf:505 - 正在顶升货架...
+2025-03-29 15:53:19.299 | INFO     | src.ui.api_test_widget:lift_shelf:511 - 货架顶升完成
