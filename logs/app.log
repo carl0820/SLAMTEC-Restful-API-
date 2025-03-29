@@ -262,3 +262,10 @@
 2025-03-29 12:30:30.680 | INFO     | src.ui.connection_widget:handle_connection:234 - 已断开设备连接
 2025-03-29 13:48:40.475 | ERROR    | src.ui.connection_widget:handle_connection:186 - 设备不在线: 10.160.129.66:1448
 2025-03-29 13:49:03.024 | INFO     | src.ui.connection_widget:handle_connection:212 - 已连接到设备 10.160.129.66:1448
+2025-03-29 14:52:39.008 | INFO     | src.ui.connection_widget:handle_connection:212 - 已连接到设备 10.160.129.66:1448
+2025-03-29 15:22:21.600 | INFO     | src.ui.connection_widget:handle_connection:212 - 已连接到设备 10.160.129.66:1448
+2025-03-29 15:22:31.423 | ERROR    | src.ui.api_test_widget:query_map:633 - 查询地图失败: 'RobotAPI' object has no attribute 'get'
+2025-03-29 15:22:38.753 | ERROR    | src.ui.api_test_widget:query_lora:655 - 查询Lora状态失败: 'RobotAPI' object has no attribute 'get'
+2025-03-29 15:22:56.971 | ERROR    | src.ui.api_test_widget:query_map:633 - 查询地图失败: 'RobotAPI' object has no attribute 'get'
+2025-03-29 15:23:34.444 | ERROR    | src.ui.api_test_widget:query_lora:655 - 查询Lora状态失败: 'RobotAPI' object has no attribute 'get'
+2025-03-29 15:24:27.628 | INFO     | src.ui.connection_widget:handle_connection:212 - 已连接到设备 10.160.129.66:1448

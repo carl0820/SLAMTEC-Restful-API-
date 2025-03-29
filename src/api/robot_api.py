@@ -6,6 +6,13 @@ class RobotAPI:
         self.base_url = base_url.rstrip('/')
         self.session = requests.Session()
     
+    def get(self, endpoint: str):
+        """发送GET请求到指定端点"""
+        url = f"{self.base_url}{endpoint}"
+        response = self.session.get(url)
+        response.raise_for_status()
+        return response.json()
+    
     def get_device_info(self):
         """获取设备信息"""
         url = f"{self.base_url}/api/core/system/v1/robot/info"

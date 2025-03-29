@@ -374,6 +374,64 @@ Response: 200 OK
     }
 }
 
+  - `GET /api/multi-floor/map/v1/floors/:current` - 查询当前地图信息
+  响应：{
+  "building": "default",
+  "elevator": "",
+  "floor": "1f",
+  "map_id": "1510cf46-ff11-4484-8f7d-5913e7f3cec5"
+}
+- `GET /api/swarm/network/v1/lora/status` - 查询Lora状态
+响应：{"state":"Running"}
+
+- `GET /api/core/slam/v1/localization/quality` - 查询定位质量
+响应：53
+
+- `GET /api/core/system/v1/power/status` - 查询电源信息
+响应：{
+  "batteryPercentage": 5,
+  "dockingStatus": "not_on_dock",
+  "isCharging": false,
+  "isDCConnected": false,
+  "powerStage": "running",
+  "sleepMode": "awake"
+}
+
+- `GET /api/core/system/v1/robot/health` - 查询健康状态
+响应：{
+  "baseError": [
+    {
+      "component": 1,
+      "componentErrorCode": 256,
+      "componentErrorDeviceId": -1,
+      "componentErrorType": 2049,
+      "errorCode": 33620224,
+      "id": 0,
+      "level": 2,
+      "message": "system emergency stop"
+    },
+    {
+      "component": 2,
+      "componentErrorCode": 256,
+      "componentErrorDeviceId": -1,
+      "componentErrorType": 3074,
+      "errorCode": 16908544,
+      "id": 1,
+      "level": 1,
+      "message": "power low"
+    }
+  ],
+  "hasDepthCameraDisconnected": false,
+  "hasError": true,
+  "hasFatal": false,
+  "hasLidarDisconnected": false,
+  "hasSdpDisconnected": false,
+  "hasSystemEmergencyStop": true,
+  "hasWarning": true
+}
+
+
+
 # Slamtec API 调试工具
 
 ## 项目简介
