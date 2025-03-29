@@ -1,0 +1,264 @@
+2025-03-25 15:35:34.935 | INFO     | src.ui.connection_widget:handle_connection:64 - 已连接到设备 10.160.129.66:1448
+2025-03-25 15:35:38.228 | INFO     | src.ui.device_info_widget:get_device_info:54 - 已获取设备信息
+2025-03-25 15:35:48.657 | INFO     | src.ui.api_test_widget:generate_landing_pose:135 - 正在生成Landing Pose: 距离=1.0, 反向=False
+2025-03-25 15:35:48.658 | INFO     | src.ui.api_test_widget:generate_landing_pose:158 - Landing Pose生成完成
+2025-03-25 15:36:12.819 | INFO     | src.ui.device_info_widget:get_device_info:54 - 已获取设备信息
+2025-03-25 15:36:15.525 | INFO     | src.ui.connection_widget:handle_connection:74 - 已断开设备连接
+2025-03-25 15:40:48.964 | INFO     | src.ui.connection_widget:handle_connection:80 - 已连接到设备 10.160.129.66:1448
+2025-03-25 15:40:52.343 | INFO     | src.ui.device_info_widget:get_device_info:61 - 已获取设备信息
+2025-03-25 15:41:03.451 | INFO     | src.ui.api_test_widget:generate_landing_pose:145 - 正在生成Landing Pose: 距离=1.0, 反向=False
+2025-03-25 15:41:03.465 | INFO     | src.ui.api_test_widget:generate_landing_pose:151 - Landing Pose生成完成
+2025-03-25 15:41:55.629 | INFO     | src.ui.api_test_widget:lift_shelf:190 - 正在顶升货架...
+2025-03-25 15:41:55.642 | INFO     | src.ui.api_test_widget:lift_shelf:196 - 货架顶升完成
+2025-03-25 15:42:20.291 | INFO     | src.ui.api_test_widget:lower_shelf:208 - 正在放下货架...
+2025-03-25 15:42:20.303 | INFO     | src.ui.api_test_widget:lower_shelf:214 - 货架放下完成
+2025-03-25 15:42:43.327 | INFO     | src.ui.api_test_widget:go_home:226 - 正在执行回桩...
+2025-03-25 15:42:43.341 | INFO     | src.ui.api_test_widget:go_home:232 - 回桩完成
+2025-03-25 15:43:43.498 | INFO     | src.ui.connection_widget:handle_connection:97 - 已断开设备连接
+2025-03-25 15:43:44.772 | INFO     | src.ui.connection_widget:handle_connection:80 - 已连接到设备 10.160.129.66:1448
+2025-03-25 15:50:52.059 | INFO     | src.ui.connection_widget:handle_connection:97 - 已断开设备连接
+2025-03-25 15:50:53.118 | INFO     | src.ui.connection_widget:handle_connection:80 - 已连接到设备 10.160.129.66:1448
+2025-03-25 15:50:56.941 | INFO     | src.ui.device_info_widget:get_device_info:61 - 已获取设备信息
+2025-03-25 15:51:45.247 | INFO     | src.ui.connection_widget:handle_connection:97 - 已断开设备连接
+2025-03-25 15:51:47.735 | INFO     | src.ui.connection_widget:handle_connection:80 - 已连接到设备 10.160.129.66:1448
+2025-03-25 15:52:31.918 | INFO     | src.ui.api_test_widget:execute_docking:168 - 正在执行货架对接: 模式=坐标值, x=16.46, y=-9.12, yaw=-0.6
+2025-03-25 15:52:31.935 | INFO     | src.ui.api_test_widget:execute_docking:178 - 货架对接执行完成
+2025-03-25 15:52:50.113 | INFO     | src.ui.connection_widget:handle_connection:97 - 已断开设备连接
+2025-03-25 15:52:50.844 | INFO     | src.ui.connection_widget:handle_connection:80 - 已连接到设备 10.160.129.66:1448
+2025-03-25 15:53:10.686 | INFO     | src.ui.api_test_widget:generate_landing_pose:145 - 正在生成Landing Pose: 距离=1.0, 反向=False
+2025-03-25 15:53:10.751 | INFO     | src.ui.api_test_widget:generate_landing_pose:151 - Landing Pose生成完成
+2025-03-25 15:53:21.879 | INFO     | src.ui.api_test_widget:execute_docking:168 - 正在执行货架对接: 模式=坐标值, x=16.46, y=-9.12, yaw=-0.6
+2025-03-25 15:53:21.918 | INFO     | src.ui.api_test_widget:execute_docking:178 - 货架对接执行完成
+2025-03-25 15:54:16.432 | INFO     | src.ui.api_test_widget:lift_shelf:190 - 正在顶升货架...
+2025-03-25 15:54:16.517 | INFO     | src.ui.api_test_widget:lift_shelf:196 - 货架顶升完成
+2025-03-25 15:54:26.244 | INFO     | src.ui.api_test_widget:lower_shelf:208 - 正在放下货架...
+2025-03-25 15:54:26.381 | INFO     | src.ui.api_test_widget:lower_shelf:214 - 货架放下完成
+2025-03-25 15:57:37.850 | INFO     | src.ui.connection_widget:handle_connection:97 - 已断开设备连接
+2025-03-25 15:57:53.810 | INFO     | src.ui.connection_widget:handle_connection:80 - 已连接到设备 10.160.129.66:1448
+2025-03-25 15:57:57.932 | INFO     | src.ui.device_info_widget:get_device_info:61 - 已获取设备信息
+2025-03-25 15:58:04.520 | INFO     | src.ui.api_test_widget:lift_shelf:190 - 正在顶升货架...
+2025-03-25 15:58:04.626 | INFO     | src.ui.api_test_widget:lift_shelf:196 - 货架顶升完成
+2025-03-25 15:58:18.846 | INFO     | src.ui.api_test_widget:lower_shelf:208 - 正在放下货架...
+2025-03-25 15:58:18.889 | INFO     | src.ui.api_test_widget:lower_shelf:214 - 货架放下完成
+2025-03-25 15:58:27.273 | INFO     | src.ui.api_test_widget:lower_shelf:208 - 正在放下货架...
+2025-03-25 15:58:27.319 | INFO     | src.ui.api_test_widget:lower_shelf:214 - 货架放下完成
+2025-03-25 15:59:11.459 | INFO     | src.ui.api_test_widget:go_home:226 - 正在执行回桩...
+2025-03-25 15:59:11.483 | INFO     | src.ui.api_test_widget:go_home:232 - 回桩完成
+2025-03-25 15:59:19.772 | INFO     | src.ui.api_test_widget:lift_shelf:190 - 正在顶升货架...
+2025-03-25 15:59:19.848 | INFO     | src.ui.api_test_widget:lift_shelf:196 - 货架顶升完成
+2025-03-25 15:59:38.158 | INFO     | src.ui.api_test_widget:lower_shelf:208 - 正在放下货架...
+2025-03-25 15:59:38.319 | INFO     | src.ui.api_test_widget:lower_shelf:214 - 货架放下完成
+2025-03-25 15:59:45.028 | INFO     | src.ui.api_test_widget:lower_shelf:208 - 正在放下货架...
+2025-03-25 15:59:45.044 | INFO     | src.ui.api_test_widget:lower_shelf:214 - 货架放下完成
+2025-03-25 16:00:07.070 | INFO     | src.ui.api_test_widget:execute_docking:168 - 正在执行货架对接: 模式=坐标值, x=16.46, y=-9.12, yaw=-0.6
+2025-03-25 16:00:07.090 | INFO     | src.ui.api_test_widget:execute_docking:178 - 货架对接执行完成
+2025-03-25 16:00:57.108 | INFO     | src.ui.api_test_widget:generate_landing_pose:145 - 正在生成Landing Pose: 距离=1.0, 反向=False
+2025-03-25 16:00:57.174 | INFO     | src.ui.api_test_widget:generate_landing_pose:151 - Landing Pose生成完成
+2025-03-25 16:01:09.847 | INFO     | src.ui.api_test_widget:execute_docking:168 - 正在执行货架对接: 模式=坐标值, x=16.46, y=-9.12, yaw=-0.6
+2025-03-25 16:01:09.881 | INFO     | src.ui.api_test_widget:execute_docking:178 - 货架对接执行完成
+2025-03-25 16:02:20.589 | INFO     | src.ui.api_test_widget:go_home:226 - 正在执行回桩...
+2025-03-25 16:02:20.605 | INFO     | src.ui.api_test_widget:go_home:232 - 回桩完成
+2025-03-25 16:02:27.460 | INFO     | src.ui.api_test_widget:execute_docking:168 - 正在执行货架对接: 模式=坐标值, x=16.46, y=-9.12, yaw=-0.6
+2025-03-25 16:02:27.498 | INFO     | src.ui.api_test_widget:execute_docking:178 - 货架对接执行完成
+2025-03-25 16:02:41.662 | INFO     | src.ui.connection_widget:handle_connection:97 - 已断开设备连接
+2025-03-25 16:04:24.737 | INFO     | src.ui.connection_widget:handle_connection:80 - 已连接到设备 10.160.129.66:1448
+2025-03-25 16:09:18.991 | INFO     | src.ui.connection_widget:handle_connection:109 - 已连接到设备 10.160.129.66:1448
+2025-03-25 16:09:37.051 | INFO     | src.ui.api_test_widget:execute_docking:270 - 货架对接执行完成
+2025-03-25 16:10:18.930 | INFO     | src.ui.api_test_widget:execute_docking:270 - 货架对接执行完成
+2025-03-25 16:10:38.620 | INFO     | src.ui.device_info_widget:get_device_info:61 - 已获取设备信息
+2025-03-25 16:10:58.442 | INFO     | src.ui.api_test_widget:backoff_shelf:360 - 正在退出货架...
+2025-03-25 16:10:58.443 | ERROR    | src.ui.api_test_widget:backoff_shelf:369 - 退出货架失败: 'RobotAPI' object has no attribute 'backoff_shelf'
+2025-03-25 16:11:22.191 | INFO     | src.ui.api_test_widget:backoff_shelf:360 - 正在退出货架...
+2025-03-25 16:11:22.192 | ERROR    | src.ui.api_test_widget:backoff_shelf:369 - 退出货架失败: 'RobotAPI' object has no attribute 'backoff_shelf'
+2025-03-25 16:12:32.223 | INFO     | src.ui.api_test_widget:backoff_shelf:360 - 正在退出货架...
+2025-03-25 16:12:32.225 | ERROR    | src.ui.api_test_widget:backoff_shelf:369 - 退出货架失败: 'RobotAPI' object has no attribute 'backoff_shelf'
+2025-03-25 16:13:50.753 | INFO     | src.ui.api_test_widget:execute_docking:270 - 货架对接执行完成
+2025-03-25 16:14:32.839 | INFO     | src.ui.api_test_widget:execute_docking:270 - 货架对接执行完成
+2025-03-25 16:19:18.553 | INFO     | src.ui.connection_widget:handle_connection:109 - 已连接到设备 10.160.129.66:1448
+2025-03-25 16:19:23.095 | INFO     | src.ui.api_test_widget:backoff_shelf:360 - 正在退出货架...
+2025-03-25 16:19:23.155 | INFO     | src.ui.api_test_widget:backoff_shelf:366 - 货架退出完成
+2025-03-25 16:22:09.716 | INFO     | src.ui.connection_widget:handle_connection:109 - 已连接到设备 10.160.129.66:1448
+2025-03-25 16:22:39.161 | INFO     | src.ui.api_test_widget:execute_docking:299 - 货架对接执行完成
+2025-03-25 16:23:04.618 | INFO     | src.ui.api_test_widget:lift_shelf:324 - 正在顶升货架...
+2025-03-25 16:23:04.636 | INFO     | src.ui.api_test_widget:lift_shelf:330 - 货架顶升完成
+2025-03-25 16:23:28.896 | INFO     | src.ui.api_test_widget:lower_shelf:355 - 正在放下货架...
+2025-03-25 16:23:29.046 | INFO     | src.ui.api_test_widget:lower_shelf:361 - 货架放下完成
+2025-03-25 16:24:08.878 | INFO     | src.ui.api_test_widget:execute_docking:299 - 货架对接执行完成
+2025-03-25 16:24:59.365 | ERROR    | src.ui.api_test_widget:move_shelf:193 - 搬运货架失败: 'RobotAPI' object has no attribute 'move_to_poi'
+2025-03-25 16:25:02.955 | INFO     | src.ui.api_test_widget:execute_docking:299 - 货架对接执行完成
+2025-03-25 16:25:41.627 | ERROR    | src.ui.api_test_widget:move_shelf:193 - 搬运货架失败: 'RobotAPI' object has no attribute 'move_to_poi'
+2025-03-25 16:33:31.457 | INFO     | src.ui.connection_widget:handle_connection:109 - 已连接到设备 10.160.129.66:1448
+2025-03-25 16:33:58.449 | ERROR    | src.ui.api_test_widget:move_shelf:193 - 搬运货架失败: 'RobotAPI' object has no attribute 'move_to_poi'
+2025-03-25 16:36:31.853 | INFO     | src.ui.connection_widget:handle_connection:109 - 已连接到设备 10.160.129.66:1448
+2025-03-25 16:36:37.411 | INFO     | src.ui.device_info_widget:get_device_info:61 - 已获取设备信息
+2025-03-25 16:37:20.678 | INFO     | src.ui.api_test_widget:execute_docking:318 - 货架对接执行完成
+2025-03-25 16:38:18.361 | INFO     | src.ui.api_test_widget:execute_docking:318 - 货架对接执行完成
+2025-03-25 16:40:11.030 | INFO     | src.ui.api_test_widget:execute_docking:318 - 货架对接执行完成
+2025-03-25 16:42:15.084 | INFO     | src.ui.api_test_widget:execute_docking:318 - 货架对接执行完成
+2025-03-25 16:43:14.111 | INFO     | src.ui.api_test_widget:execute_docking:318 - 货架对接执行完成
+2025-03-25 16:44:31.260 | INFO     | src.ui.api_test_widget:execute_docking:318 - 货架对接执行完成
+2025-03-25 16:58:03.544 | INFO     | src.ui.api_test_widget:lift_shelf:343 - 正在顶升货架...
+2025-03-25 16:58:03.728 | INFO     | src.ui.api_test_widget:lift_shelf:349 - 货架顶升完成
+2025-03-25 16:58:10.107 | INFO     | src.ui.api_test_widget:lower_shelf:374 - 正在放下货架...
+2025-03-25 16:58:10.184 | INFO     | src.ui.api_test_widget:lower_shelf:380 - 货架放下完成
+2025-03-25 16:58:21.342 | INFO     | src.ui.api_test_widget:lower_shelf:374 - 正在放下货架...
+2025-03-25 16:58:21.513 | INFO     | src.ui.api_test_widget:lower_shelf:380 - 货架放下完成
+2025-03-25 16:58:46.550 | INFO     | src.ui.api_test_widget:go_home:434 - 正在执行回桩...
+2025-03-25 16:58:46.569 | INFO     | src.ui.api_test_widget:go_home:440 - 回桩完成
+2025-03-25 17:09:36.694 | INFO     | src.ui.device_info_widget:get_device_info:61 - 已获取设备信息
+2025-03-25 17:09:50.429 | INFO     | src.ui.device_info_widget:sync_map:83 - 地图同步完成
+2025-03-25 17:09:58.575 | INFO     | src.ui.device_info_widget:sync_map:83 - 地图同步完成
+2025-03-25 17:23:33.883 | INFO     | src.ui.connection_widget:handle_connection:109 - 已连接到设备 10.160.129.66:1448
+2025-03-25 17:23:40.535 | INFO     | src.ui.api_test_widget:generate_landing_pose:234 - 正在生成Landing Pose: 距离=1.0, 反向=False
+2025-03-25 17:23:40.582 | INFO     | src.ui.api_test_widget:generate_landing_pose:240 - Landing Pose生成完成
+2025-03-25 17:27:02.157 | INFO     | src.ui.device_info_widget:sync_map:83 - 地图同步完成
+2025-03-25 17:28:11.311 | INFO     | src.ui.api_test_widget:execute_docking:318 - 货架对接执行完成
+2025-03-25 17:31:42.401 | INFO     | src.ui.api_test_widget:execute_docking:318 - 货架对接执行完成
+2025-03-25 18:01:41.103 | INFO     | src.ui.device_info_widget:sync_map:83 - 地图同步完成
+2025-03-25 18:02:29.133 | INFO     | src.ui.api_test_widget:execute_docking:318 - 货架对接执行完成
+2025-03-25 18:03:12.480 | INFO     | src.ui.api_test_widget:execute_docking:318 - 货架对接执行完成
+2025-03-25 18:05:54.764 | INFO     | src.ui.api_test_widget:execute_docking:318 - 货架对接执行完成
+2025-03-25 18:06:41.506 | INFO     | src.ui.api_test_widget:execute_docking:318 - 货架对接执行完成
+2025-03-25 18:08:11.998 | INFO     | src.ui.api_test_widget:execute_docking:318 - 货架对接执行完成
+2025-03-25 18:09:33.384 | INFO     | src.ui.device_info_widget:sync_map:83 - 地图同步完成
+2025-03-25 18:12:27.426 | INFO     | src.ui.device_info_widget:sync_map:83 - 地图同步完成
+2025-03-25 18:16:29.922 | INFO     | src.ui.api_test_widget:execute_docking:318 - 货架对接执行完成
+2025-03-25 18:17:13.225 | INFO     | src.ui.api_test_widget:go_home:434 - 正在执行回桩...
+2025-03-25 18:17:13.240 | INFO     | src.ui.api_test_widget:go_home:440 - 回桩完成
+2025-03-25 18:20:47.841 | INFO     | src.ui.api_test_widget:execute_docking:318 - 货架对接执行完成
+2025-03-25 18:20:58.058 | INFO     | src.ui.api_test_widget:execute_docking:318 - 货架对接执行完成
+2025-03-25 18:21:28.290 | INFO     | src.ui.device_info_widget:sync_map:83 - 地图同步完成
+2025-03-25 18:21:31.148 | INFO     | src.ui.api_test_widget:execute_docking:318 - 货架对接执行完成
+2025-03-25 18:23:23.281 | INFO     | src.ui.api_test_widget:generate_landing_pose:234 - 正在生成Landing Pose: 距离=1.0, 反向=False
+2025-03-25 18:23:23.297 | INFO     | src.ui.api_test_widget:generate_landing_pose:240 - Landing Pose生成完成
+2025-03-25 18:24:09.304 | INFO     | src.ui.api_test_widget:execute_docking:318 - 货架对接执行完成
+2025-03-25 18:24:56.458 | INFO     | src.ui.api_test_widget:generate_landing_pose:234 - 正在生成Landing Pose: 距离=1.0, 反向=False
+2025-03-25 18:24:56.474 | INFO     | src.ui.api_test_widget:generate_landing_pose:240 - Landing Pose生成完成
+2025-03-25 18:36:07.089 | INFO     | src.ui.connection_widget:handle_connection:129 - 已断开设备连接
+2025-03-26 11:12:10.248 | INFO     | src.ui.connection_widget:handle_connection:109 - 已连接到设备 10.160.129.66:1448
+2025-03-26 11:19:15.519 | INFO     | src.ui.connection_widget:handle_connection:109 - 已连接到设备 10.160.129.66:1448
+2025-03-26 11:20:25.662 | INFO     | src.ui.connection_widget:handle_connection:109 - 已连接到设备 10.160.129.66:1448
+2025-03-26 11:21:56.423 | INFO     | src.ui.connection_widget:handle_connection:109 - 已连接到设备 10.160.129.66:1448
+2025-03-26 11:24:10.109 | INFO     | src.ui.connection_widget:handle_connection:109 - 已连接到设备 10.160.129.66:1448
+2025-03-26 11:24:14.167 | INFO     | src.ui.device_info_widget:get_device_info:61 - 已获取设备信息
+2025-03-26 11:24:39.133 | INFO     | src.ui.api_test_widget:generate_landing_pose:323 - 正在生成Landing Pose: 距离=1.0, 反向=False
+2025-03-26 11:24:39.193 | INFO     | src.ui.api_test_widget:generate_landing_pose:329 - Landing Pose生成完成
+2025-03-26 11:25:32.034 | INFO     | src.ui.api_test_widget:execute_docking:421 - 货架对接执行完成
+2025-03-26 11:27:25.485 | INFO     | src.ui.api_test_widget:lift_shelf:446 - 正在顶升货架...
+2025-03-26 11:27:25.518 | INFO     | src.ui.api_test_widget:lift_shelf:452 - 货架顶升完成
+2025-03-26 11:27:59.435 | INFO     | src.ui.api_test_widget:lower_shelf:477 - 正在放下货架...
+2025-03-26 11:27:59.451 | INFO     | src.ui.api_test_widget:lower_shelf:483 - 货架放下完成
+2025-03-26 11:29:30.330 | INFO     | src.ui.connection_widget:handle_connection:129 - 已断开设备连接
+2025-03-26 12:02:27.479 | INFO     | src.ui.connection_widget:handle_connection:109 - 已连接到设备 10.160.129.66:1448
+2025-03-26 12:02:43.671 | INFO     | src.ui.api_test_widget:generate_landing_pose:323 - 正在生成Landing Pose: 距离=1.0, 反向=False
+2025-03-26 12:02:43.761 | INFO     | src.ui.api_test_widget:generate_landing_pose:329 - Landing Pose生成完成
+2025-03-26 12:35:12.744 | INFO     | src.ui.device_info_widget:sync_map:83 - 地图同步完成
+2025-03-26 12:35:48.107 | INFO     | src.ui.api_test_widget:execute_docking:421 - 货架对接执行完成
+2025-03-26 12:36:41.886 | INFO     | src.ui.api_test_widget:execute_docking:421 - 货架对接执行完成
+2025-03-26 12:39:15.578 | INFO     | src.ui.api_test_widget:execute_docking:421 - 货架对接执行完成
+2025-03-26 12:39:35.125 | INFO     | src.ui.api_test_widget:execute_docking:421 - 货架对接执行完成
+2025-03-26 12:42:19.834 | INFO     | src.ui.api_test_widget:execute_docking:421 - 货架对接执行完成
+2025-03-26 12:51:47.690 | INFO     | src.ui.api_test_widget:lift_shelf:446 - 正在顶升货架...
+2025-03-26 12:51:47.705 | INFO     | src.ui.api_test_widget:lift_shelf:452 - 货架顶升完成
+2025-03-26 12:52:34.932 | INFO     | src.ui.api_test_widget:lower_shelf:477 - 正在放下货架...
+2025-03-26 12:52:34.960 | INFO     | src.ui.api_test_widget:lower_shelf:483 - 货架放下完成
+2025-03-26 12:53:17.549 | INFO     | src.ui.device_info_widget:get_device_info:61 - 已获取设备信息
+2025-03-26 12:53:33.157 | INFO     | src.ui.api_test_widget:lower_shelf:477 - 正在放下货架...
+2025-03-26 12:53:33.235 | INFO     | src.ui.api_test_widget:lower_shelf:483 - 货架放下完成
+2025-03-26 12:53:59.442 | INFO     | src.ui.api_test_widget:backoff_shelf:511 - 正在退出货架...
+2025-03-26 12:53:59.516 | INFO     | src.ui.api_test_widget:backoff_shelf:517 - 货架退出完成
+2025-03-26 12:54:33.441 | INFO     | src.ui.api_test_widget:execute_docking:421 - 货架对接执行完成
+2025-03-26 12:54:59.546 | INFO     | src.ui.connection_widget:handle_connection:129 - 已断开设备连接
+2025-03-26 14:02:46.517 | INFO     | src.ui.connection_widget:handle_connection:109 - 已连接到设备 10.6.128.83:1448
+2025-03-26 14:02:51.924 | INFO     | src.ui.device_info_widget:get_device_info:61 - 已获取设备信息
+2025-03-26 14:03:06.862 | INFO     | src.ui.api_test_widget:generate_landing_pose:323 - 正在生成Landing Pose: 距离=1.0, 反向=True
+2025-03-26 14:03:06.882 | INFO     | src.ui.api_test_widget:generate_landing_pose:329 - Landing Pose生成完成
+2025-03-26 14:07:38.000 | INFO     | src.ui.device_info_widget:sync_map:83 - 地图同步完成
+2025-03-26 14:07:52.672 | INFO     | src.ui.api_test_widget:execute_docking:421 - 货架对接执行完成
+2025-03-26 14:10:54.118 | INFO     | src.ui.api_test_widget:generate_landing_pose:323 - 正在生成Landing Pose: 距离=1.0, 反向=True
+2025-03-26 14:10:54.474 | INFO     | src.ui.api_test_widget:generate_landing_pose:329 - Landing Pose生成完成
+2025-03-26 14:14:27.979 | INFO     | src.ui.device_info_widget:sync_map:83 - 地图同步完成
+2025-03-26 14:17:03.588 | INFO     | src.ui.device_info_widget:sync_map:83 - 地图同步完成
+2025-03-26 14:26:06.251 | INFO     | src.ui.device_info_widget:sync_map:83 - 地图同步完成
+2025-03-26 14:34:02.686 | INFO     | src.ui.api_test_widget:generate_landing_pose:323 - 正在生成Landing Pose: 距离=1.0, 反向=True
+2025-03-26 14:34:03.102 | INFO     | src.ui.api_test_widget:generate_landing_pose:329 - Landing Pose生成完成
+2025-03-26 14:35:33.384 | INFO     | src.ui.device_info_widget:sync_map:83 - 地图同步完成
+2025-03-26 14:37:18.600 | INFO     | src.ui.api_test_widget:execute_docking:421 - 货架对接执行完成
+2025-03-26 14:38:01.321 | INFO     | src.ui.api_test_widget:lift_shelf:446 - 正在顶升货架...
+2025-03-26 14:38:01.574 | INFO     | src.ui.api_test_widget:lift_shelf:452 - 货架顶升完成
+2025-03-26 14:44:37.528 | INFO     | src.ui.api_test_widget:backoff_shelf:511 - 正在退出货架...
+2025-03-26 14:44:37.881 | INFO     | src.ui.api_test_widget:backoff_shelf:517 - 货架退出完成
+2025-03-26 14:44:51.845 | INFO     | src.ui.api_test_widget:lower_shelf:477 - 正在放下货架...
+2025-03-26 14:44:52.333 | INFO     | src.ui.api_test_widget:lower_shelf:483 - 货架放下完成
+2025-03-26 14:45:15.566 | INFO     | src.ui.api_test_widget:backoff_shelf:511 - 正在退出货架...
+2025-03-26 14:45:15.618 | INFO     | src.ui.api_test_widget:backoff_shelf:517 - 货架退出完成
+2025-03-26 14:47:42.535 | INFO     | src.ui.connection_widget:handle_connection:129 - 已断开设备连接
+2025-03-26 14:48:28.566 | INFO     | src.ui.connection_widget:handle_connection:109 - 已连接到设备 10.6.128.83:1448
+2025-03-26 14:51:47.620 | INFO     | src.ui.api_test_widget:execute_docking:421 - 货架对接执行完成
+2025-03-26 14:52:37.501 | INFO     | src.ui.api_test_widget:execute_docking:421 - 货架对接执行完成
+2025-03-26 14:53:19.820 | INFO     | src.ui.api_test_widget:backoff_shelf:511 - 正在退出货架...
+2025-03-26 14:53:20.590 | INFO     | src.ui.api_test_widget:backoff_shelf:517 - 货架退出完成
+2025-03-26 14:54:33.993 | ERROR    | src.ui.api_test_widget:move_shelf:301 - 搬运货架失败: cannot access local variable 'yaw' where it is not associated with a value
+2025-03-26 14:54:49.734 | ERROR    | src.ui.api_test_widget:move_shelf:301 - 搬运货架失败: cannot access local variable 'yaw' where it is not associated with a value
+2025-03-26 15:00:23.097 | ERROR    | src.ui.api_test_widget:move_shelf:301 - 搬运货架失败: cannot access local variable 'yaw' where it is not associated with a value
+2025-03-26 15:00:26.558 | INFO     | src.ui.connection_widget:handle_connection:109 - 已连接到设备 10.160.129.66:1448
+2025-03-26 15:00:34.074 | INFO     | src.ui.connection_widget:handle_connection:129 - 已断开设备连接
+2025-03-26 15:00:47.005 | ERROR    | src.ui.connection_widget:handle_connection:92 - 设备不在线: 10.6.128.83:1448
+2025-03-26 15:00:54.328 | ERROR    | src.ui.connection_widget:handle_connection:92 - 设备不在线: 10.6.128.83:1448
+2025-03-26 15:02:58.867 | INFO     | src.ui.connection_widget:handle_connection:109 - 已连接到设备 10.6.128.83:1448
+2025-03-26 15:03:04.296 | INFO     | src.ui.device_info_widget:get_device_info:61 - 已获取设备信息
+2025-03-26 15:04:18.416 | INFO     | src.ui.api_test_widget:execute_docking:427 - 货架对接执行完成
+2025-03-26 15:10:59.670 | INFO     | src.ui.connection_widget:handle_connection:109 - 已连接到设备 10.6.128.83:1448
+2025-03-26 15:11:16.116 | INFO     | src.ui.api_test_widget:go_home:544 - 正在执行回桩...
+2025-03-26 15:11:16.253 | INFO     | src.ui.api_test_widget:go_home:550 - 回桩完成
+2025-03-26 15:14:21.499 | INFO     | src.ui.connection_widget:handle_connection:144 - 已连接到设备 10.6.128.83:1448
+2025-03-26 15:14:26.609 | INFO     | src.ui.connection_widget:handle_connection:164 - 已断开设备连接
+2025-03-26 15:14:32.826 | INFO     | src.ui.connection_widget:handle_connection:144 - 已连接到设备 10.6.128.83:1448
+2025-03-26 15:19:14.452 | INFO     | src.ui.api_test_widget:execute_docking:428 - 货架对接执行完成
+2025-03-26 15:21:03.004 | INFO     | src.ui.connection_widget:handle_connection:164 - 已断开设备连接
+2025-03-26 15:25:14.259 | INFO     | src.ui.connection_widget:handle_connection:206 - 已连接到设备 10.6.128.83:1448
+2025-03-26 15:25:52.719 | INFO     | src.ui.connection_widget:handle_connection:228 - 已断开设备连接
+2025-03-26 15:38:07.073 | INFO     | src.ui.connection_widget:handle_connection:206 - 已连接到设备 10.6.128.83:1448
+2025-03-26 15:53:49.691 | INFO     | src.ui.connection_widget:handle_connection:206 - 已连接到设备 10.6.128.83:1448
+2025-03-26 15:54:48.040 | INFO     | src.ui.api_test_widget:go_home:553 - 正在执行回桩...
+2025-03-26 15:54:48.136 | INFO     | src.ui.api_test_widget:go_home:559 - 回桩完成
+2025-03-26 15:54:56.846 | INFO     | src.ui.connection_widget:handle_connection:228 - 已断开设备连接
+2025-03-26 15:58:49.244 | INFO     | src.ui.connection_widget:handle_connection:206 - 已连接到设备 10.6.128.83:1448
+2025-03-26 15:59:10.767 | INFO     | src.ui.api_test_widget:generate_landing_pose:340 - 正在生成Landing Pose: 距离=1.0, 反向=True
+2025-03-26 15:59:10.840 | INFO     | src.ui.api_test_widget:generate_landing_pose:362 - Landing Pose生成完成
+2025-03-26 16:00:53.803 | INFO     | src.ui.api_test_widget:execute_docking:454 - 货架对接执行完成
+2025-03-26 16:02:32.103 | INFO     | src.ui.connection_widget:handle_connection:228 - 已断开设备连接
+2025-03-26 22:59:36.191 | ERROR    | src.ui.connection_widget:handle_connection:180 - 设备不在线: 10.6.128.83:1448
+2025-03-26 23:31:08.469 | ERROR    | src.ui.connection_widget:handle_connection:180 - 设备不在线: 10.6.128.83:1448
+2025-03-27 13:03:11.046 | INFO     | src.ui.connection_widget:handle_connection:206 - 已连接到设备 10.160.129.66:1448
+2025-03-27 13:03:33.720 | INFO     | src.ui.api_test_widget:execute_docking:448 - 货架对接执行完成
+2025-03-27 13:06:41.540 | INFO     | src.ui.api_test_widget:execute_docking:448 - 货架对接执行完成
+2025-03-27 13:07:26.880 | INFO     | src.ui.api_test_widget:execute_docking:448 - 货架对接执行完成
+2025-03-27 13:08:40.060 | INFO     | src.ui.api_test_widget:lift_shelf:473 - 正在顶升货架...
+2025-03-27 13:08:40.164 | INFO     | src.ui.api_test_widget:lift_shelf:479 - 货架顶升完成
+2025-03-27 13:09:28.187 | ERROR    | src.ui.api_test_widget:move_shelf:311 - 搬运货架失败: cannot access local variable 'yaw' where it is not associated with a value
+2025-03-27 13:10:34.966 | ERROR    | src.ui.api_test_widget:move_shelf:311 - 搬运货架失败: cannot access local variable 'yaw' where it is not associated with a value
+2025-03-27 13:11:16.363 | INFO     | src.ui.connection_widget:handle_connection:206 - 已连接到设备 10.160.129.66:1448
+2025-03-27 13:15:18.679 | INFO     | src.ui.connection_widget:handle_connection:228 - 已断开设备连接
+2025-03-27 13:15:19.593 | INFO     | src.ui.connection_widget:handle_connection:206 - 已连接到设备 10.160.129.66:1448
+2025-03-27 13:20:07.769 | INFO     | src.ui.connection_widget:handle_connection:206 - 已连接到设备 10.160.129.66:1448
+2025-03-27 13:22:02.216 | INFO     | src.ui.api_test_widget:execute_docking:446 - 货架对接执行完成
+2025-03-27 13:23:05.979 | INFO     | src.ui.api_test_widget:execute_docking:446 - 货架对接执行完成
+2025-03-27 13:31:28.750 | INFO     | src.ui.connection_widget:handle_connection:206 - 已连接到设备 10.160.129.66:1448
+2025-03-27 13:34:45.253 | INFO     | src.ui.api_test_widget:execute_docking:447 - 货架对接执行完成
+2025-03-27 13:35:20.183 | INFO     | src.ui.api_test_widget:execute_docking:447 - 货架对接执行完成
+2025-03-27 13:40:57.735 | INFO     | src.ui.api_test_widget:backoff_shelf:537 - 正在退出货架...
+2025-03-27 13:40:57.759 | INFO     | src.ui.api_test_widget:backoff_shelf:543 - 货架退出完成
+2025-03-27 13:41:10.858 | INFO     | src.ui.api_test_widget:go_home:563 - 正在执行回桩...
+2025-03-27 13:41:10.873 | INFO     | src.ui.api_test_widget:go_home:569 - 回桩完成
+2025-03-27 13:41:14.991 | INFO     | src.ui.connection_widget:handle_connection:228 - 已断开设备连接
+2025-03-29 12:21:43.957 | INFO     | src.ui.connection_widget:handle_connection:206 - 已连接到设备 10.160.129.66:1448
+2025-03-29 12:22:07.128 | INFO     | src.ui.connection_widget:handle_connection:228 - 已断开设备连接
+2025-03-29 12:22:36.164 | INFO     | src.ui.connection_widget:handle_connection:206 - 已连接到设备 10.160.129.66:1448
+2025-03-29 12:23:13.540 | INFO     | src.ui.connection_widget:handle_connection:228 - 已断开设备连接
+2025-03-29 12:24:27.383 | INFO     | src.ui.connection_widget:handle_connection:206 - 已连接到设备 10.160.129.66:1448
+2025-03-29 12:24:42.281 | INFO     | src.ui.connection_widget:handle_connection:228 - 已断开设备连接
+2025-03-29 12:27:39.038 | INFO     | src.ui.connection_widget:handle_connection:212 - 已连接到设备 10.160.129.66:1448
+2025-03-29 12:30:30.680 | INFO     | src.ui.connection_widget:handle_connection:234 - 已断开设备连接
+2025-03-29 13:48:40.475 | ERROR    | src.ui.connection_widget:handle_connection:186 - 设备不在线: 10.160.129.66:1448
+2025-03-29 13:49:03.024 | INFO     | src.ui.connection_widget:handle_connection:212 - 已连接到设备 10.160.129.66:1448
