@@ -644,25 +644,19 @@ class ApiTestWidget(QGroupBox):
             api_info = {
                 "endpoint": "/api/multi-floor/map/v1/floors/:current",
                 "method": "GET",
-                "description": "查询当前地图信息",
-                "response_example": {
-                    "building": "default",
-                    "elevator": "",
-                    "floor": "1f",
-                    "map_id": "1510cf46-ff11-4484-8f7d-5913e7f3cec5"
-                }
+                "description": "查询当前地图信息"
             }
-            self.api_info_text.append(json.dumps(api_info, indent=2, ensure_ascii=False))
+            self.api_info_text.setText(json.dumps(api_info, indent=2, ensure_ascii=False))
             
             # 发送请求
             response = self.api_client.get("/api/multi-floor/map/v1/floors/:current")
             
             # 显示响应信息
-            self.response_text.append(json.dumps(response, indent=2, ensure_ascii=False))
+            self.response_text.setText(json.dumps(response, indent=2, ensure_ascii=False))
             
         except Exception as e:
             error_msg = f"查询地图失败: {str(e)}"
-            self.response_text.append(error_msg)
+            self.response_text.setText(error_msg)
             logger.error(error_msg)
             QMessageBox.critical(self, "错误", error_msg)
     
@@ -677,22 +671,19 @@ class ApiTestWidget(QGroupBox):
             api_info = {
                 "endpoint": "/api/swarm/network/v1/lora/status",
                 "method": "GET",
-                "description": "查询Lora状态",
-                "response_example": {
-                    "state": "Running"
-                }
+                "description": "查询Lora状态"
             }
-            self.api_info_text.append(json.dumps(api_info, indent=2, ensure_ascii=False))
+            self.api_info_text.setText(json.dumps(api_info, indent=2, ensure_ascii=False))
             
             # 发送请求
             response = self.api_client.get("/api/swarm/network/v1/lora/status")
             
             # 显示响应信息
-            self.response_text.append(json.dumps(response, indent=2, ensure_ascii=False))
+            self.response_text.setText(json.dumps(response, indent=2, ensure_ascii=False))
             
         except Exception as e:
             error_msg = f"查询Lora状态失败: {str(e)}"
-            self.response_text.append(error_msg)
+            self.response_text.setText(error_msg)
             logger.error(error_msg)
             QMessageBox.critical(self, "错误", error_msg)
     
@@ -707,20 +698,19 @@ class ApiTestWidget(QGroupBox):
             api_info = {
                 "endpoint": "/api/core/slam/v1/localization/quality",
                 "method": "GET",
-                "description": "查询定位质量",
-                "response_example": 53
+                "description": "查询定位质量"
             }
-            self.api_info_text.append(json.dumps(api_info, indent=2, ensure_ascii=False))
+            self.api_info_text.setText(json.dumps(api_info, indent=2, ensure_ascii=False))
             
             # 发送请求
             response = self.api_client.get("/api/core/slam/v1/localization/quality")
             
             # 显示响应信息
-            self.response_text.append(json.dumps(response, indent=2, ensure_ascii=False))
+            self.response_text.setText(json.dumps(response, indent=2, ensure_ascii=False))
             
         except Exception as e:
             error_msg = f"查询定位质量失败: {str(e)}"
-            self.response_text.append(error_msg)
+            self.response_text.setText(error_msg)
             logger.error(error_msg)
             QMessageBox.critical(self, "错误", error_msg)
     
@@ -735,27 +725,19 @@ class ApiTestWidget(QGroupBox):
             api_info = {
                 "endpoint": "/api/core/system/v1/power/status",
                 "method": "GET",
-                "description": "查询电源信息",
-                "response_example": {
-                    "batteryPercentage": 5,
-                    "dockingStatus": "not_on_dock",
-                    "isCharging": False,
-                    "isDCConnected": False,
-                    "powerStage": "running",
-                    "sleepMode": "awake"
-                }
+                "description": "查询电源信息"
             }
-            self.api_info_text.append(json.dumps(api_info, indent=2, ensure_ascii=False))
+            self.api_info_text.setText(json.dumps(api_info, indent=2, ensure_ascii=False))
             
             # 发送请求
             response = self.api_client.get("/api/core/system/v1/power/status")
             
             # 显示响应信息
-            self.response_text.append(json.dumps(response, indent=2, ensure_ascii=False))
+            self.response_text.setText(json.dumps(response, indent=2, ensure_ascii=False))
             
         except Exception as e:
             error_msg = f"查询电源信息失败: {str(e)}"
-            self.response_text.append(error_msg)
+            self.response_text.setText(error_msg)
             logger.error(error_msg)
             QMessageBox.critical(self, "错误", error_msg)
     
@@ -770,49 +752,18 @@ class ApiTestWidget(QGroupBox):
             api_info = {
                 "endpoint": "/api/core/system/v1/robot/health",
                 "method": "GET",
-                "description": "查询健康状态",
-                "response_example": {
-                    "baseError": [
-                        {
-                            "component": 1,
-                            "componentErrorCode": 256,
-                            "componentErrorDeviceId": -1,
-                            "componentErrorType": 2049,
-                            "errorCode": 33620224,
-                            "id": 0,
-                            "level": 2,
-                            "message": "system emergency stop"
-                        },
-                        {
-                            "component": 2,
-                            "componentErrorCode": 256,
-                            "componentErrorDeviceId": -1,
-                            "componentErrorType": 3074,
-                            "errorCode": 16908544,
-                            "id": 1,
-                            "level": 1,
-                            "message": "power low"
-                        }
-                    ],
-                    "hasDepthCameraDisconnected": False,
-                    "hasError": True,
-                    "hasFatal": False,
-                    "hasLidarDisconnected": False,
-                    "hasSdpDisconnected": False,
-                    "hasSystemEmergencyStop": True,
-                    "hasWarning": True
-                }
+                "description": "查询健康状态"
             }
-            self.api_info_text.append(json.dumps(api_info, indent=2, ensure_ascii=False))
+            self.api_info_text.setText(json.dumps(api_info, indent=2, ensure_ascii=False))
             
             # 发送请求
             response = self.api_client.get("/api/core/system/v1/robot/health")
             
             # 显示响应信息
-            self.response_text.append(json.dumps(response, indent=2, ensure_ascii=False))
+            self.response_text.setText(json.dumps(response, indent=2, ensure_ascii=False))
             
         except Exception as e:
             error_msg = f"查询健康状态失败: {str(e)}"
-            self.response_text.append(error_msg)
+            self.response_text.setText(error_msg)
             logger.error(error_msg)
-            QMessageBox.critical(self, "错误", error_msg) 
+            QMessageBox.critical(self, "错误", error_msg)
