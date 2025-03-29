@@ -285,3 +285,4 @@
 2025-03-29 17:27:02.136 | INFO     | src.ui.connection_widget:handle_connection:212 - 已连接到设备 10.160.129.66:1448
 2025-03-29 17:28:01.376 | INFO     | src.ui.connection_widget:handle_connection:234 - 已断开设备连接
 2025-03-29 19:10:23.811 | ERROR    | src.ui.connection_widget:handle_connection:186 - 设备不在线: 10.160.129.66:1448
+2025-03-29 19:22:09.758 | ERROR    | src.ui.connection_widget:handle_connection:186 - 设备不在线: 10.160.129.66:1448
