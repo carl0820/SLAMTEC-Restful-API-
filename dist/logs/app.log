@@ -1,14 +1,1 @@
-2025-03-26 16:06:44.989 | ERROR    | src.ui.connection_widget:handle_connection:180 - 设备不在线: 10.160.129.66:1448
-2025-03-26 16:07:03.649 | INFO     | src.ui.connection_widget:handle_connection:206 - 已连接到设备 10.6.128.83:1448
-2025-03-26 16:07:13.159 | INFO     | src.ui.api_test_widget:go_home:570 - 正在执行回桩...
-2025-03-26 16:07:13.336 | INFO     | src.ui.api_test_widget:go_home:576 - 回桩完成
-2025-03-26 16:07:18.476 | INFO     | src.ui.connection_widget:handle_connection:228 - 已断开设备连接
-2025-03-29 11:44:35.002 | INFO     | src.ui.connection_widget:handle_connection:206 - 已连接到设备 10.160.129.66:1448
-2025-03-29 11:44:56.328 | INFO     | src.ui.connection_widget:handle_connection:228 - 已断开设备连接
-2025-03-29 11:48:40.157 | INFO     | src.ui.connection_widget:handle_connection:206 - 已连接到设备 10.160.129.66:1448
-2025-03-29 11:52:31.075 | INFO     | src.ui.connection_widget:handle_connection:206 - 已连接到设备 10.160.129.66:1448
-2025-03-29 11:52:39.708 | INFO     | src.ui.api_test_widget:go_home:570 - 正在执行回桩...
-2025-03-29 11:52:39.791 | INFO     | src.ui.api_test_widget:go_home:576 - 回桩完成
-2025-03-29 11:53:49.373 | INFO     | src.ui.api_test_widget:go_home:570 - 正在执行回桩...
-2025-03-29 11:53:49.547 | INFO     | src.ui.api_test_widget:go_home:576 - 回桩完成
-2025-03-29 11:54:28.668 | INFO     | src.ui.connection_widget:handle_connection:228 - 已断开设备连接
+2025-03-29 19:12:29.501 | ERROR    | src.ui.connection_widget:handle_connection:186 - 设备不在线: 10.160.129.66:1448
