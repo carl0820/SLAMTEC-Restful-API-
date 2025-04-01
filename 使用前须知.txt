@@ -1,0 +1,46 @@
+使用须知：
+（1）本调试助手非官方发布版本，提供开源源码，仅提供使用，不提供任何助手软件相关的二次开发相关技术支持。
+（2）本软件主要是演示了部分常用API的请求和响应反馈，包含了AGV顶升底盘的常见操作API。
+（3）使用真实环境连接设备，请运行dist目录下的Slamtec_API_Tool.exe；
+（4）使用模拟环境请运行dist目录下的MockServer.exe;[模拟服务器IP：127.0.0.1 端口5000]
+（5）健康监控看板请运行dist目录下的\健康监控软件看板\RobotHealthMonitor.exe
+使用指南：
+（1）设备连接
+当收到底盘或者AGV产品时，默认底盘为AP模式，连接上当前设备的热点SLAMWARE-XXXX，即输入IP 192.168.11.1，端口号1448
+如果底盘切换到STA 模式，即设备连接到本地局域网wifi，则需要输入底盘在该网络下的IP地址，端口号1448；
+（2）在线API调试：配置好IP和端口点击可直接进入RESTFUL API的调试网页，可以直接进行API 在线调试
+设备信息：
+（1）设备信息栏一为当前设备的SN号及版本号信息以及型号名称；
+（2）设备信息栏二为当前设备的电池电量和定位质量等信息；
+API调试：
+（1）货架尺寸配置：用于修改API中的货架尺寸调整；
+（2）地图操作&设备查询
+1.同步地图：主要用于在Robostudio 文件->地图编辑器->上传到固件,只是将地图上传到了机器人Agent内，如果需要持久化保存地图，则需要调用一次同步地图接口；
+2.查询地图：可查询当前地图所在楼栋，楼层以及地图ID等信息；
+3.查询Lora：可查询底盘上的Lora是否工作，如果反馈“Running”则表示正常工作；
+4.查询定位质量：表征机器人当前观测与地图之间匹配程度，当定位质量较高时（>70）表明当前位姿置信度较高；定位质量（<=40）表明当前和地图匹配程度较低，可能存在场景变化较大或定位误差较大问题。
+5.查询电量：返回当前电量的百分比；
+6查询健康状态：用于查询当前机器人存在哪些报警或者错误信息，此信息可帮助诊断机器人处于哪种状态,可通过思岚配套提供的health 健康矩阵查询故障码的错误和恢复方法；【Important】
+（3）API 请求信息&响应信息
+1.触发对应REST 请求后显示当前的API请求和响应信息的内容；
+（4）操作按钮
+Landing Pose :用于生成货架对接点的Landing Pose
+货架对接：支持通过对应货架前的Landing Pose的坐标 和 对应的POI进行API请求；
+顶升货架：调用顶升接口
+放下货架：调用下降的接口
+退出货架：调用退出货架的接口
+搬运货架：支持通过对应货架前的Landing Pose的坐标 和 对应的POI进行API请求；
+回桩控制：调用机器人回桩接口
+
+更多的底盘部署指南和API 文档：
+工业底盘部署手册：https://slamtec.feishu.cn/docx/Y6KpdznBrozAICx7gbjcLI1Lnmg?from=from_copylink
+通用底盘的部署手册：https://slamtec.feishu.cn/docx/AKKCdZmtIopyuYxdMsBcDpGDnkb?from=from_copylink
+上位机开发SDK
+根据自己的编程习惯选择适合自己且适用于上位机开发平台的SDK。
+SDK下载地址：https://www.slamtec.com/cn/Support#apollo
+开发者中心地址：https://wiki.slamtec.com/display/SD
+开发者中心例程：https://wiki.slamtec.com/pages/viewpage.action?pageId=13959292
+开发者中心参考设计：https://wiki.slamtec.com/pages/viewpage.action?pageId=13959240
+开发者中心应用笔记：https://wiki.slamtec.com/display/SD/Slamware+Application+Note
+
+

@@ -1,1 +1,597 @@
 2025-03-29 19:12:29.501 | ERROR    | src.ui.connection_widget:handle_connection:186 - 设备不在线: 10.160.129.66:1448
+2025-03-29 19:29:23.914 | ERROR    | src.ui.connection_widget:handle_connection:186 - 设备不在线: 10.160.129.66:1448
+2025-03-29 19:46:11.386 | INFO     | src.ui.connection_widget:handle_connection:212 - 已连接到设备 192.168.1.15:5000
+2025-03-29 19:46:56.114 | INFO     | src.ui.api_test_widget:lift_shelf:505 - 正在顶升货架...
+2025-03-29 19:46:56.126 | INFO     | src.ui.api_test_widget:lift_shelf:511 - 货架顶升完成
+2025-03-29 19:47:06.283 | INFO     | src.ui.api_test_widget:go_home:596 - 正在执行回桩...
+2025-03-29 19:47:06.293 | INFO     | src.ui.api_test_widget:go_home:602 - 回桩完成
+2025-03-29 22:30:48.267 | INFO     | src.ui.connection_widget:handle_connection:212 - 已连接到设备 192.168.1.15:5000
+2025-03-29 22:31:05.577 | INFO     | src.ui.api_test_widget:lift_shelf:505 - 正在顶升货架...
+2025-03-29 22:31:05.589 | INFO     | src.ui.api_test_widget:lift_shelf:511 - 货架顶升完成
+2025-03-29 22:31:20.799 | INFO     | src.ui.api_test_widget:lower_shelf:536 - 正在放下货架...
+2025-03-29 22:31:20.811 | INFO     | src.ui.api_test_widget:lower_shelf:542 - 货架放下完成
+2025-03-29 22:31:25.842 | ERROR    | src.ui.api_test_widget:execute_docking:483 - 货架对接执行失败: could not convert string to float: ''
+2025-03-29 22:31:38.038 | INFO     | src.ui.api_test_widget:execute_docking:480 - 货架对接执行完成
+2025-03-29 22:58:47.095 | INFO     | src.ui.connection_widget:handle_connection:212 - 已连接到设备 192.168.1.15:5000
+2025-03-29 23:00:10.487 | INFO     | src.ui.connection_widget:handle_connection:212 - 已连接到设备 192.168.1.15:5000
+2025-03-29 23:00:22.951 | INFO     | src.ui.connection_widget:handle_connection:234 - 已断开设备连接
+2025-03-29 23:00:24.039 | INFO     | src.ui.connection_widget:handle_connection:212 - 已连接到设备 192.168.1.15:5000
+2025-03-29 23:00:27.609 | INFO     | src.ui.connection_widget:handle_connection:234 - 已断开设备连接
+2025-03-29 23:01:03.053 | ERROR    | src.ui.connection_widget:handle_connection:186 - 设备不在线: 192.168.1.15:5000
+2025-03-29 23:01:08.919 | ERROR    | src.ui.connection_widget:handle_connection:186 - 设备不在线: 192.168.1.15:5000
+2025-03-29 23:01:25.048 | INFO     | src.ui.connection_widget:handle_connection:212 - 已连接到设备 192.168.1.15:5000
+2025-03-29 23:03:50.156 | ERROR    | src.ui.connection_widget:handle_connection:186 - 设备不在线: 192.168.1.15:5000
+2025-03-29 23:04:56.374 | INFO     | src.ui.connection_widget:handle_connection:212 - 已连接到设备 192.168.1.15:5000
+2025-03-29 23:05:02.263 | INFO     | src.ui.connection_widget:handle_connection:234 - 已断开设备连接
+2025-03-31 09:50:29.305 | INFO     | src.ui.connection_widget:handle_connection:212 - 已连接到设备 10.160.129.66:1448
+2025-03-31 10:25:48.757 | INFO     | src.ui.api_test_widget:execute_docking:480 - 货架对接执行完成
+2025-03-31 10:28:33.811 | INFO     | src.ui.api_test_widget:go_home:596 - 正在执行回桩...
+2025-03-31 10:28:33.848 | INFO     | src.ui.api_test_widget:go_home:602 - 回桩完成
+2025-03-31 10:36:44.607 | INFO     | src.ui.api_test_widget:lower_shelf:536 - 正在放下货架...
+2025-03-31 10:36:44.622 | INFO     | src.ui.api_test_widget:lower_shelf:542 - 货架放下完成
+2025-03-31 10:37:03.115 | INFO     | src.ui.api_test_widget:execute_docking:480 - 货架对接执行完成
+2025-03-31 10:38:12.878 | INFO     | src.ui.api_test_widget:backoff_shelf:570 - 正在退出货架...
+2025-03-31 10:38:12.974 | INFO     | src.ui.api_test_widget:backoff_shelf:576 - 货架退出完成
+2025-03-31 10:38:23.134 | INFO     | src.ui.api_test_widget:go_home:596 - 正在执行回桩...
+2025-03-31 10:38:23.150 | INFO     | src.ui.api_test_widget:go_home:602 - 回桩完成
+2025-03-31 10:39:16.550 | INFO     | src.ui.connection_widget:handle_connection:234 - 已断开设备连接
+2025-03-31 10:43:32.227 | INFO     | src.ui.connection_widget:handle_connection:212 - 已连接到设备 127.0.0.1:5000
+2025-03-31 10:43:35.700 | INFO     | src.ui.connection_widget:handle_connection:234 - 已断开设备连接
+2025-03-31 10:43:45.559 | ERROR    | src.ui.connection_widget:handle_connection:186 - 设备不在线: 192.168.1.15:5000
+2025-03-31 11:05:55.703 | INFO     | src.ui.connection_widget:handle_connection:212 - 已连接到设备 10.160.129.66:1448
+2025-03-31 11:12:00.628 | INFO     | src.ui.connection_widget:handle_connection:234 - 已断开设备连接
+2025-03-31 12:37:31.536 | INFO     | src.ui.connection_widget:handle_connection:212 - 已连接到设备 10.160.129.66:1448
+2025-03-31 12:37:47.888 | INFO     | src.ui.api_test_widget:execute_docking:480 - 货架对接执行完成
+2025-03-31 13:01:08.602 | INFO     | src.ui.api_test_widget:lift_shelf:505 - 正在顶升货架...
+2025-03-31 13:01:08.626 | INFO     | src.ui.api_test_widget:lift_shelf:511 - 货架顶升完成
+2025-03-31 13:01:41.397 | INFO     | src.ui.api_test_widget:lower_shelf:536 - 正在放下货架...
+2025-03-31 13:01:41.424 | INFO     | src.ui.api_test_widget:lower_shelf:542 - 货架放下完成
+2025-03-31 13:02:33.190 | INFO     | src.ui.api_test_widget:lift_shelf:505 - 正在顶升货架...
+2025-03-31 13:02:33.215 | INFO     | src.ui.api_test_widget:lift_shelf:511 - 货架顶升完成
+2025-03-31 13:06:36.195 | INFO     | src.ui.api_test_widget:execute_docking:480 - 货架对接执行完成
+2025-03-31 13:07:25.911 | INFO     | src.ui.api_test_widget:lower_shelf:536 - 正在放下货架...
+2025-03-31 13:07:25.924 | INFO     | src.ui.api_test_widget:lower_shelf:542 - 货架放下完成
+2025-03-31 13:07:53.204 | INFO     | src.ui.api_test_widget:execute_docking:480 - 货架对接执行完成
+2025-03-31 13:09:08.550 | INFO     | src.ui.api_test_widget:go_home:596 - 正在执行回桩...
+2025-03-31 13:09:08.561 | INFO     | src.ui.api_test_widget:go_home:602 - 回桩完成
+2025-03-31 13:14:09.290 | INFO     | src.ui.connection_widget:handle_connection:234 - 已断开设备连接
+2025-03-31 16:29:12.463 | INFO     | src.ui.connection_widget:handle_connection:212 - 已连接到设备 10.160.129.66:1448
+2025-03-31 16:44:50.691 | ERROR    | src.ui.api_test_widget:move_shelf:343 - 搬运货架失败: could not convert string to float: 'L02'
+2025-03-31 16:45:23.564 | INFO     | src.ui.api_test_widget:go_home:596 - 正在执行回桩...
+2025-03-31 16:45:23.620 | INFO     | src.ui.api_test_widget:go_home:602 - 回桩完成
+2025-03-31 16:45:38.099 | INFO     | src.ui.connection_widget:handle_connection:234 - 已断开设备连接
+2025-03-31 18:16:49.173 | INFO     | src.ui.connection_widget:handle_connection:212 - 已连接到设备 10.160.129.66:1448
+2025-03-31 18:20:02.376 | ERROR    | src.ui.main_window:query_device_info:101 - 查询设备信息失败: HTTPConnectionPool(host='10.160.129.66', port=1448): Read timed out. (read timeout=None)
+2025-03-31 18:20:23.697 | ERROR    | src.ui.main_window:query_device_info:101 - 查询设备信息失败: HTTPConnectionPool(host='10.160.129.66', port=1448): Max retries exceeded with url: /api/core/system/v1/power/status (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000022300D49090>, 'Connection to 10.160.129.66 timed out. (connect timeout=None)'))
+2025-03-31 18:20:45.194 | ERROR    | src.ui.main_window:query_device_info:101 - 查询设备信息失败: HTTPConnectionPool(host='10.160.129.66', port=1448): Max retries exceeded with url: /api/core/system/v1/power/status (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000022300D49950>, 'Connection to 10.160.129.66 timed out. (connect timeout=None)'))
+2025-03-31 18:21:17.200 | INFO     | src.ui.connection_widget:handle_connection:212 - 已连接到设备 10.160.129.66:1448
+2025-03-31 18:21:34.565 | ERROR    | src.ui.connection_widget:handle_connection:186 - 设备不在线: 10.160.129.253:1448
+2025-03-31 18:22:19.842 | ERROR    | src.ui.main_window:query_device_info:101 - 查询设备信息失败: HTTPConnectionPool(host='10.160.129.66', port=1448): Read timed out. (read timeout=None)
+2025-03-31 18:22:19.842 | ERROR    | src.ui.main_window:query_device_info:101 - 查询设备信息失败: HTTPConnectionPool(host='10.160.129.66', port=1448): Read timed out. (read timeout=None)
+2025-03-31 18:22:41.223 | ERROR    | src.ui.main_window:query_device_info:101 - 查询设备信息失败: HTTPConnectionPool(host='10.160.129.66', port=1448): Max retries exceeded with url: /api/core/system/v1/power/status (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000022300C4E2C0>, 'Connection to 10.160.129.66 timed out. (connect timeout=None)'))
+2025-03-31 18:23:03.908 | INFO     | src.ui.connection_widget:handle_connection:212 - 已连接到设备 10.160.129.66:1448
+2025-03-31 18:24:23.683 | INFO     | src.ui.connection_widget:handle_connection:234 - 已断开设备连接
+2025-03-31 18:35:10.124 | INFO     | src.ui.connection_widget:handle_connection:212 - 已连接到设备 10.160.129.66:1448
+2025-03-31 18:35:24.927 | ERROR    | src.ui.connection_widget:handle_connection:186 - 设备不在线: 10.160.129.253:1448
+2025-03-31 18:36:42.991 | INFO     | src.ui.connection_widget:handle_connection:212 - 已连接到设备 10.160.129.253:1448
+2025-03-31 18:47:44.026 | ERROR    | src.ui.main_window:query_device_info:101 - 查询设备信息失败: 500 Server Error: Internal Error for url: http://10.160.129.253:1448/api/core/system/v1/power/status
+2025-03-31 18:47:44.744 | ERROR    | src.ui.main_window:query_device_info:101 - 查询设备信息失败: 500 Server Error: Internal Error for url: http://10.160.129.253:1448/api/core/system/v1/power/status
+2025-03-31 18:47:45.020 | ERROR    | src.ui.main_window:query_device_info:101 - 查询设备信息失败: 500 Server Error: Internal Error for url: http://10.160.129.253:1448/api/core/system/v1/power/status
+2025-03-31 18:47:48.121 | ERROR    | src.ui.main_window:query_device_info:101 - 查询设备信息失败: HTTPConnectionPool(host='10.160.129.253', port=1448): Max retries exceeded with url: /api/core/system/v1/power/status (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000128F4D06F90>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2025-03-31 18:47:51.191 | ERROR    | src.ui.main_window:query_device_info:101 - 查询设备信息失败: HTTPConnectionPool(host='10.160.129.253', port=1448): Max retries exceeded with url: /api/core/system/v1/power/status (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000128F4D79090>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2025-03-31 18:47:54.263 | ERROR    | src.ui.main_window:query_device_info:101 - 查询设备信息失败: HTTPConnectionPool(host='10.160.129.253', port=1448): Max retries exceeded with url: /api/core/system/v1/power/status (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000128F4D79590>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2025-03-31 18:47:57.030 | ERROR    | src.ui.main_window:query_device_info:101 - 查询设备信息失败: HTTPConnectionPool(host='10.160.129.253', port=1448): Max retries exceeded with url: /api/core/system/v1/power/status (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000128F4CAE3F0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2025-03-31 18:48:00.084 | ERROR    | src.ui.main_window:query_device_info:101 - 查询设备信息失败: HTTPConnectionPool(host='10.160.129.253', port=1448): Max retries exceeded with url: /api/core/system/v1/power/status (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000128F4CAE2C0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2025-03-31 18:48:03.151 | ERROR    | src.ui.main_window:query_device_info:101 - 查询设备信息失败: HTTPConnectionPool(host='10.160.129.253', port=1448): Max retries exceeded with url: /api/core/system/v1/power/status (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000128F4D2DFD0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2025-03-31 18:48:05.751 | ERROR    | src.ui.main_window:query_device_info:101 - 查询设备信息失败: HTTPConnectionPool(host='10.160.129.253', port=1448): Max retries exceeded with url: /api/core/system/v1/power/status (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000128F73DC270>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2025-03-31 18:48:06.246 | ERROR    | src.ui.main_window:query_device_info:101 - 查询设备信息失败: 404 Client Error: Not Found for url: http://10.160.129.253:1448/api/core/system/v1/power/status
+2025-03-31 18:48:06.519 | ERROR    | src.ui.main_window:query_device_info:101 - 查询设备信息失败: 404 Client Error: Not Found for url: http://10.160.129.253:1448/api/core/system/v1/power/status
+2025-03-31 18:48:07.016 | ERROR    | src.ui.main_window:query_device_info:101 - 查询设备信息失败: 404 Client Error: Not Found for url: http://10.160.129.253:1448/api/core/system/v1/power/status
+2025-03-31 18:48:07.633 | ERROR    | src.ui.main_window:query_device_info:101 - 查询设备信息失败: 404 Client Error: Not Found for url: http://10.160.129.253:1448/api/core/system/v1/power/status
+2025-03-31 18:48:08.013 | ERROR    | src.ui.main_window:query_device_info:101 - 查询设备信息失败: 404 Client Error: Not Found for url: http://10.160.129.253:1448/api/core/system/v1/power/status
+2025-03-31 18:48:08.537 | ERROR    | src.ui.main_window:query_device_info:101 - 查询设备信息失败: 404 Client Error: Not Found for url: http://10.160.129.253:1448/api/core/system/v1/power/status
+2025-03-31 18:48:09.085 | ERROR    | src.ui.main_window:query_device_info:101 - 查询设备信息失败: 404 Client Error: Not Found for url: http://10.160.129.253:1448/api/core/system/v1/power/status
+2025-03-31 18:48:09.517 | ERROR    | src.ui.main_window:query_device_info:101 - 查询设备信息失败: 404 Client Error: Not Found for url: http://10.160.129.253:1448/api/core/system/v1/power/status
+2025-03-31 18:48:10.068 | ERROR    | src.ui.main_window:query_device_info:101 - 查询设备信息失败: 404 Client Error: Not Found for url: http://10.160.129.253:1448/api/core/system/v1/power/status
+2025-03-31 18:48:10.529 | ERROR    | src.ui.main_window:query_device_info:101 - 查询设备信息失败: 404 Client Error: Not Found for url: http://10.160.129.253:1448/api/core/system/v1/power/status
+2025-03-31 18:48:11.031 | ERROR    | src.ui.main_window:query_device_info:101 - 查询设备信息失败: 404 Client Error: Not Found for url: http://10.160.129.253:1448/api/core/system/v1/power/status
+2025-03-31 18:48:11.553 | ERROR    | src.ui.main_window:query_device_info:101 - 查询设备信息失败: 404 Client Error: Not Found for url: http://10.160.129.253:1448/api/core/system/v1/power/status
+2025-03-31 18:48:12.016 | ERROR    | src.ui.main_window:query_device_info:101 - 查询设备信息失败: 404 Client Error: Not Found for url: http://10.160.129.253:1448/api/core/system/v1/power/status
+2025-03-31 18:48:12.678 | ERROR    | src.ui.main_window:query_device_info:101 - 查询设备信息失败: 404 Client Error: Not Found for url: http://10.160.129.253:1448/api/core/system/v1/power/status
+2025-03-31 18:52:00.908 | ERROR    | src.ui.main_window:query_device_info:101 - 查询设备信息失败: 500 Server Error: Internal Error for url: http://10.160.129.253:1448/api/core/slam/v1/localization/quality
+2025-03-31 18:52:01.072 | ERROR    | src.ui.main_window:query_device_info:101 - 查询设备信息失败: 500 Server Error: Internal Error for url: http://10.160.129.253:1448/api/core/system/v1/power/status
+2025-03-31 18:52:01.586 | ERROR    | src.ui.main_window:query_device_info:101 - 查询设备信息失败: 500 Server Error: Internal Error for url: http://10.160.129.253:1448/api/core/system/v1/power/status
+2025-03-31 18:52:02.209 | ERROR    | src.ui.main_window:query_device_info:101 - 查询设备信息失败: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-03-31 18:52:05.490 | ERROR    | src.ui.main_window:query_device_info:101 - 查询设备信息失败: HTTPConnectionPool(host='10.160.129.253', port=1448): Max retries exceeded with url: /api/core/system/v1/power/status (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000128F73DC7C0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2025-03-31 18:52:08.065 | ERROR    | src.ui.main_window:query_device_info:101 - 查询设备信息失败: HTTPConnectionPool(host='10.160.129.253', port=1448): Max retries exceeded with url: /api/core/system/v1/power/status (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000128F73DC9E0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2025-03-31 18:52:11.344 | ERROR    | src.ui.main_window:query_device_info:101 - 查询设备信息失败: HTTPConnectionPool(host='10.160.129.253', port=1448): Max retries exceeded with url: /api/core/system/v1/power/status (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000128F73DCC00>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2025-03-31 18:52:14.096 | ERROR    | src.ui.main_window:query_device_info:101 - 查询设备信息失败: HTTPConnectionPool(host='10.160.129.253', port=1448): Max retries exceeded with url: /api/core/system/v1/power/status (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000128F73DCE20>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2025-03-31 18:52:16.867 | ERROR    | src.ui.main_window:query_device_info:101 - 查询设备信息失败: HTTPConnectionPool(host='10.160.129.253', port=1448): Max retries exceeded with url: /api/core/system/v1/power/status (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000128F73DD040>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2025-03-31 18:52:19.391 | ERROR    | src.ui.main_window:query_device_info:101 - 查询设备信息失败: HTTPConnectionPool(host='10.160.129.253', port=1448): Max retries exceeded with url: /api/core/system/v1/power/status (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000128F4C9BDF0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2025-03-31 18:52:20.622 | ERROR    | src.ui.main_window:query_device_info:101 - 查询设备信息失败: 404 Client Error: Not Found for url: http://10.160.129.253:1448/api/core/system/v1/power/status
+2025-03-31 18:52:21.109 | ERROR    | src.ui.main_window:query_device_info:101 - 查询设备信息失败: 404 Client Error: Not Found for url: http://10.160.129.253:1448/api/core/system/v1/power/status
+2025-03-31 18:52:21.787 | ERROR    | src.ui.main_window:query_device_info:101 - 查询设备信息失败: 404 Client Error: Not Found for url: http://10.160.129.253:1448/api/core/system/v1/power/status
+2025-03-31 18:52:22.353 | ERROR    | src.ui.main_window:query_device_info:101 - 查询设备信息失败: 404 Client Error: Not Found for url: http://10.160.129.253:1448/api/core/system/v1/power/status
+2025-03-31 18:52:22.593 | ERROR    | src.ui.main_window:query_device_info:101 - 查询设备信息失败: 404 Client Error: Not Found for url: http://10.160.129.253:1448/api/core/system/v1/power/status
+2025-03-31 18:52:23.312 | ERROR    | src.ui.main_window:query_device_info:101 - 查询设备信息失败: 404 Client Error: Not Found for url: http://10.160.129.253:1448/api/core/system/v1/power/status
+2025-03-31 18:52:23.593 | ERROR    | src.ui.main_window:query_device_info:101 - 查询设备信息失败: 404 Client Error: Not Found for url: http://10.160.129.253:1448/api/core/system/v1/power/status
+2025-03-31 18:52:24.225 | ERROR    | src.ui.main_window:query_device_info:101 - 查询设备信息失败: 404 Client Error: Not Found for url: http://10.160.129.253:1448/api/core/system/v1/power/status
+2025-03-31 18:52:24.586 | ERROR    | src.ui.main_window:query_device_info:101 - 查询设备信息失败: 404 Client Error: Not Found for url: http://10.160.129.253:1448/api/core/system/v1/power/status
+2025-03-31 18:52:25.085 | ERROR    | src.ui.main_window:query_device_info:101 - 查询设备信息失败: 404 Client Error: Not Found for url: http://10.160.129.253:1448/api/core/system/v1/power/status
+2025-03-31 18:52:25.674 | ERROR    | src.ui.main_window:query_device_info:101 - 查询设备信息失败: 404 Client Error: Not Found for url: http://10.160.129.253:1448/api/core/system/v1/power/status
+2025-03-31 18:52:26.094 | ERROR    | src.ui.main_window:query_device_info:101 - 查询设备信息失败: 404 Client Error: Not Found for url: http://10.160.129.253:1448/api/core/system/v1/power/status
+2025-03-31 18:52:26.693 | ERROR    | src.ui.main_window:query_device_info:101 - 查询设备信息失败: 404 Client Error: Not Found for url: http://10.160.129.253:1448/api/core/system/v1/power/status
+2025-03-31 18:52:27.313 | ERROR    | src.ui.main_window:query_device_info:101 - 查询设备信息失败: 404 Client Error: Not Found for url: http://10.160.129.253:1448/api/core/system/v1/power/status
+2025-03-31 19:00:00.048 | INFO     | src.ui.connection_widget:handle_connection:234 - 已断开设备连接
+2025-03-31 19:00:32.265 | INFO     | src.ui.connection_widget:handle_connection:234 - 已断开设备连接
+2025-03-31 19:00:35.114 | INFO     | src.ui.connection_widget:handle_connection:212 - 已连接到设备 10.160.129.66:1448
+2025-04-01 09:24:03.543 | INFO     | src.ui.connection_widget:handle_connection:212 - 已连接到设备 10.160.129.253:1448
+2025-04-01 09:46:34.399 | INFO     | src.ui.connection_widget:handle_connection:234 - 已断开设备连接
+2025-04-01 09:46:39.284 | INFO     | src.ui.connection_widget:handle_connection:212 - 已连接到设备 10.160.129.66:1448
+2025-04-01 09:52:24.499 | ERROR    | src.ui.main_window:query_device_info:101 - 查询设备信息失败: HTTPConnectionPool(host='10.160.129.66', port=1448): Read timed out. (read timeout=None)
+2025-04-01 09:52:45.792 | ERROR    | src.ui.main_window:query_device_info:101 - 查询设备信息失败: HTTPConnectionPool(host='10.160.129.66', port=1448): Max retries exceeded with url: /api/core/system/v1/power/status (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000002C872818690>, 'Connection to 10.160.129.66 timed out. (connect timeout=None)'))
+2025-04-01 09:53:07.299 | ERROR    | src.ui.main_window:query_device_info:101 - 查询设备信息失败: HTTPConnectionPool(host='10.160.129.66', port=1448): Max retries exceeded with url: /api/core/system/v1/power/status (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000002C87274E9E0>, 'Connection to 10.160.129.66 timed out. (connect timeout=None)'))
+2025-04-01 09:53:28.778 | ERROR    | src.ui.main_window:query_device_info:101 - 查询设备信息失败: HTTPConnectionPool(host='10.160.129.66', port=1448): Max retries exceeded with url: /api/core/system/v1/power/status (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000002C87274EB10>, 'Connection to 10.160.129.66 timed out. (connect timeout=None)'))
+2025-04-01 10:01:41.175 | ERROR    | src.ui.main_window:query_device_info:101 - 查询设备信息失败: HTTPConnectionPool(host='10.160.129.66', port=1448): Read timed out. (read timeout=None)
+2025-04-01 10:02:02.533 | ERROR    | src.ui.main_window:query_device_info:101 - 查询设备信息失败: HTTPConnectionPool(host='10.160.129.66', port=1448): Max retries exceeded with url: /api/core/system/v1/power/status (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000002C874E7C270>, 'Connection to 10.160.129.66 timed out. (connect timeout=None)'))
+2025-04-01 10:02:24.021 | ERROR    | src.ui.main_window:query_device_info:101 - 查询设备信息失败: HTTPConnectionPool(host='10.160.129.66', port=1448): Max retries exceeded with url: /api/core/system/v1/power/status (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000002C874E7C490>, 'Connection to 10.160.129.66 timed out. (connect timeout=None)'))
+2025-04-01 10:07:30.219 | ERROR    | src.ui.main_window:query_device_info:101 - 查询设备信息失败: HTTPConnectionPool(host='10.160.129.66', port=1448): Read timed out. (read timeout=None)
+2025-04-01 10:07:51.566 | ERROR    | src.ui.main_window:query_device_info:101 - 查询设备信息失败: HTTPConnectionPool(host='10.160.129.66', port=1448): Max retries exceeded with url: /api/core/system/v1/power/status (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000002C874E7C8D0>, 'Connection to 10.160.129.66 timed out. (connect timeout=None)'))
+2025-04-01 10:08:13.096 | ERROR    | src.ui.main_window:query_device_info:101 - 查询设备信息失败: HTTPConnectionPool(host='10.160.129.66', port=1448): Max retries exceeded with url: /api/core/system/v1/power/status (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000002C874E7CAF0>, 'Connection to 10.160.129.66 timed out. (connect timeout=None)'))
+2025-04-01 10:13:22.266 | ERROR    | src.ui.main_window:query_device_info:101 - 查询设备信息失败: HTTPConnectionPool(host='10.160.129.66', port=1448): Read timed out. (read timeout=None)
+2025-04-01 10:13:43.617 | ERROR    | src.ui.main_window:query_device_info:101 - 查询设备信息失败: HTTPConnectionPool(host='10.160.129.66', port=1448): Max retries exceeded with url: /api/core/system/v1/power/status (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000002C874E7CF30>, 'Connection to 10.160.129.66 timed out. (connect timeout=None)'))
+2025-04-01 10:14:05.148 | ERROR    | src.ui.main_window:query_device_info:101 - 查询设备信息失败: HTTPConnectionPool(host='10.160.129.66', port=1448): Max retries exceeded with url: /api/core/system/v1/power/status (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000002C87273FDF0>, 'Connection to 10.160.129.66 timed out. (connect timeout=None)'))
+2025-04-01 10:14:26.644 | ERROR    | src.ui.main_window:query_device_info:101 - 查询设备信息失败: HTTPConnectionPool(host='10.160.129.66', port=1448): Max retries exceeded with url: /api/core/system/v1/power/status (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000002C87273FF00>, 'Connection to 10.160.129.66 timed out. (connect timeout=None)'))
+2025-04-01 10:37:42.999 | ERROR    | src.ui.main_window:query_device_info:101 - 查询设备信息失败: HTTPConnectionPool(host='10.160.129.66', port=1448): Read timed out. (read timeout=None)
+2025-04-01 10:38:04.327 | ERROR    | src.ui.main_window:query_device_info:101 - 查询设备信息失败: HTTPConnectionPool(host='10.160.129.66', port=1448): Max retries exceeded with url: /api/core/system/v1/power/status (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000002C874E7CC00>, 'Connection to 10.160.129.66 timed out. (connect timeout=None)'))
+2025-04-01 10:38:25.815 | ERROR    | src.ui.main_window:query_device_info:101 - 查询设备信息失败: HTTPConnectionPool(host='10.160.129.66', port=1448): Max retries exceeded with url: /api/core/system/v1/power/status (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000002C874E7C9E0>, 'Connection to 10.160.129.66 timed out. (connect timeout=None)'))
+2025-04-01 10:44:41.050 | ERROR    | src.ui.main_window:query_device_info:101 - 查询设备信息失败: HTTPConnectionPool(host='10.160.129.66', port=1448): Read timed out. (read timeout=None)
+2025-04-01 10:45:02.385 | ERROR    | src.ui.main_window:query_device_info:101 - 查询设备信息失败: HTTPConnectionPool(host='10.160.129.66', port=1448): Max retries exceeded with url: /api/core/system/v1/power/status (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000002C874E7C5A0>, 'Connection to 10.160.129.66 timed out. (connect timeout=None)'))
+2025-04-01 10:45:23.662 | ERROR    | src.ui.main_window:query_device_info:101 - 查询设备信息失败: HTTPConnectionPool(host='10.160.129.66', port=1448): Max retries exceeded with url: /api/core/system/v1/power/status (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000002C874E7C380>, 'Connection to 10.160.129.66 timed out. (connect timeout=None)'))
+2025-04-01 10:45:45.139 | ERROR    | src.ui.main_window:query_device_info:101 - 查询设备信息失败: HTTPConnectionPool(host='10.160.129.66', port=1448): Max retries exceeded with url: /api/core/system/v1/power/status (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000002C874E7C050>, 'Connection to 10.160.129.66 timed out. (connect timeout=None)'))
+2025-04-01 10:58:02.616 | ERROR    | src.ui.main_window:query_device_info:101 - 查询设备信息失败: HTTPConnectionPool(host='10.160.129.66', port=1448): Read timed out. (read timeout=None)
+2025-04-01 10:58:23.977 | ERROR    | src.ui.main_window:query_device_info:101 - 查询设备信息失败: HTTPConnectionPool(host='10.160.129.66', port=1448): Max retries exceeded with url: /api/core/system/v1/power/status (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000002C874E7D480>, 'Connection to 10.160.129.66 timed out. (connect timeout=None)'))
+2025-04-01 10:58:45.474 | ERROR    | src.ui.main_window:query_device_info:101 - 查询设备信息失败: HTTPConnectionPool(host='10.160.129.66', port=1448): Max retries exceeded with url: /api/core/system/v1/power/status (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000002C874E7D6A0>, 'Connection to 10.160.129.66 timed out. (connect timeout=None)'))
+2025-04-01 10:59:06.993 | ERROR    | src.ui.main_window:query_device_info:101 - 查询设备信息失败: HTTPConnectionPool(host='10.160.129.66', port=1448): Max retries exceeded with url: /api/core/system/v1/power/status (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000002C874E7D8C0>, 'Connection to 10.160.129.66 timed out. (connect timeout=None)'))
+2025-04-01 11:05:44.248 | ERROR    | src.ui.main_window:query_device_info:101 - 查询设备信息失败: HTTPConnectionPool(host='10.160.129.66', port=1448): Read timed out. (read timeout=None)
+2025-04-01 11:06:05.581 | ERROR    | src.ui.main_window:query_device_info:101 - 查询设备信息失败: HTTPConnectionPool(host='10.160.129.66', port=1448): Max retries exceeded with url: /api/core/system/v1/power/status (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000002C874E7DD00>, 'Connection to 10.160.129.66 timed out. (connect timeout=None)'))
+2025-04-01 11:06:27.070 | ERROR    | src.ui.main_window:query_device_info:101 - 查询设备信息失败: HTTPConnectionPool(host='10.160.129.66', port=1448): Max retries exceeded with url: /api/core/system/v1/power/status (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000002C874E7DF20>, 'Connection to 10.160.129.66 timed out. (connect timeout=None)'))
+2025-04-01 11:12:31.777 | ERROR    | src.ui.main_window:query_device_info:101 - 查询设备信息失败: HTTPConnectionPool(host='10.160.129.66', port=1448): Read timed out. (read timeout=None)
+2025-04-01 11:12:53.146 | ERROR    | src.ui.main_window:query_device_info:101 - 查询设备信息失败: HTTPConnectionPool(host='10.160.129.66', port=1448): Max retries exceeded with url: /api/core/system/v1/power/status (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000002C874E7E360>, 'Connection to 10.160.129.66 timed out. (connect timeout=None)'))
+2025-04-01 11:13:14.678 | ERROR    | src.ui.main_window:query_device_info:101 - 查询设备信息失败: HTTPConnectionPool(host='10.160.129.66', port=1448): Max retries exceeded with url: /api/core/system/v1/power/status (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000002C874E7E580>, 'Connection to 10.160.129.66 timed out. (connect timeout=None)'))
+2025-04-01 13:00:58.180 | INFO     | src.ui.connection_widget:handle_connection:212 - 已连接到设备 10.160.129.66:1448
+2025-04-01 13:02:25.330 | INFO     | src.ui.api_test_widget:execute_docking:480 - 货架对接执行完成
+2025-04-01 13:03:43.022 | INFO     | src.ui.api_test_widget:lift_shelf:505 - 正在顶升货架...
+2025-04-01 13:03:43.084 | INFO     | src.ui.api_test_widget:lift_shelf:511 - 货架顶升完成
+2025-04-01 13:08:40.522 | ERROR    | src.ui.api_test_widget:move_shelf:343 - 搬运货架失败: could not convert string to float: '3,10'
+2025-04-01 13:26:54.702 | INFO     | src.ui.connection_widget:handle_connection:212 - 已连接到设备 10.160.129.66:1448
+2025-04-01 13:27:02.722 | INFO     | src.ui.api_test_widget:backoff_shelf:570 - 正在退出货架...
+2025-04-01 13:27:02.749 | INFO     | src.ui.api_test_widget:backoff_shelf:576 - 货架退出完成
+2025-04-01 13:27:12.496 | INFO     | src.ui.api_test_widget:lower_shelf:536 - 正在放下货架...
+2025-04-01 13:27:12.523 | INFO     | src.ui.api_test_widget:lower_shelf:542 - 货架放下完成
+2025-04-01 13:27:31.732 | INFO     | src.ui.api_test_widget:backoff_shelf:570 - 正在退出货架...
+2025-04-01 13:27:31.774 | INFO     | src.ui.api_test_widget:backoff_shelf:576 - 货架退出完成
+2025-04-01 13:27:44.059 | INFO     | src.ui.api_test_widget:go_home:596 - 正在执行回桩...
+2025-04-01 13:27:44.126 | INFO     | src.ui.api_test_widget:go_home:602 - 回桩完成
+2025-04-01 13:37:33.292 | INFO     | src.ui.connection_widget:handle_connection:212 - 已连接到设备 10.160.129.66:1448
+2025-04-01 13:37:48.008 | INFO     | src.ui.api_test_widget:execute_docking:480 - 货架对接执行完成
+2025-04-01 13:45:42.223 | INFO     | src.ui.connection_widget:handle_connection:234 - 已断开设备连接
+2025-04-01 13:47:25.645 | INFO     | src.ui.connection_widget:handle_connection:212 - 已连接到设备 10.160.129.253:1448
+2025-04-01 14:04:56.985 | ERROR    | src.ui.main_window:query_device_info:101 - 查询设备信息失败: ('Connection aborted.', ConnectionAbortedError(10053, '你的主机中的软件中止了一个已建立的连接。', None, 10053, None))
+2025-04-01 14:04:57.346 | ERROR    | src.ui.main_window:query_device_info:101 - 查询设备信息失败: HTTPConnectionPool(host='10.160.129.253', port=1448): Max retries exceeded with url: /api/core/system/v1/power/status (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F548FB9090>: Failed to establish a new connection: [WinError 10051] 向一个无法连接的网络尝试了一个套接字操作。'))
+2025-04-01 14:04:57.857 | ERROR    | src.ui.main_window:query_device_info:101 - 查询设备信息失败: HTTPConnectionPool(host='10.160.129.253', port=1448): Max retries exceeded with url: /api/core/system/v1/power/status (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F548FB9590>: Failed to establish a new connection: [WinError 10051] 向一个无法连接的网络尝试了一个套接字操作。'))
+2025-04-01 14:04:58.355 | ERROR    | src.ui.main_window:query_device_info:101 - 查询设备信息失败: HTTPConnectionPool(host='10.160.129.253', port=1448): Max retries exceeded with url: /api/core/system/v1/power/status (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F548EBE3F0>: Failed to establish a new connection: [WinError 10051] 向一个无法连接的网络尝试了一个套接字操作。'))
+2025-04-01 14:04:58.856 | ERROR    | src.ui.main_window:query_device_info:101 - 查询设备信息失败: HTTPConnectionPool(host='10.160.129.253', port=1448): Max retries exceeded with url: /api/core/system/v1/power/status (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F548EBE2C0>: Failed to establish a new connection: [WinError 10051] 向一个无法连接的网络尝试了一个套接字操作。'))
+2025-04-01 14:05:20.400 | ERROR    | src.ui.main_window:query_device_info:101 - 查询设备信息失败: HTTPConnectionPool(host='10.160.129.253', port=1448): Max retries exceeded with url: /api/core/system/v1/power/status (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001F548F6DFD0>, 'Connection to 10.160.129.253 timed out. (connect timeout=None)'))
+2025-04-01 14:05:41.921 | ERROR    | src.ui.main_window:query_device_info:101 - 查询设备信息失败: HTTPConnectionPool(host='10.160.129.253', port=1448): Max retries exceeded with url: /api/core/system/v1/power/status (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001F54AE4C380>, 'Connection to 10.160.129.253 timed out. (connect timeout=None)'))
+2025-04-01 14:06:03.418 | ERROR    | src.ui.main_window:query_device_info:101 - 查询设备信息失败: HTTPConnectionPool(host='10.160.129.253', port=1448): Max retries exceeded with url: /api/core/system/v1/power/status (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001F54AE4C5A0>, 'Connection to 10.160.129.253 timed out. (connect timeout=None)'))
+2025-04-01 14:06:24.902 | ERROR    | src.ui.main_window:query_device_info:101 - 查询设备信息失败: HTTPConnectionPool(host='10.160.129.253', port=1448): Max retries exceeded with url: /api/core/system/v1/power/status (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001F54AE4C7C0>, 'Connection to 10.160.129.253 timed out. (connect timeout=None)'))
+2025-04-01 14:06:46.404 | ERROR    | src.ui.main_window:query_device_info:101 - 查询设备信息失败: HTTPConnectionPool(host='10.160.129.253', port=1448): Max retries exceeded with url: /api/core/system/v1/power/status (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001F54AE4C9E0>, 'Connection to 10.160.129.253 timed out. (connect timeout=None)'))
+2025-04-01 14:07:07.901 | ERROR    | src.ui.main_window:query_device_info:101 - 查询设备信息失败: HTTPConnectionPool(host='10.160.129.253', port=1448): Max retries exceeded with url: /api/core/system/v1/power/status (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001F54AE4CC00>, 'Connection to 10.160.129.253 timed out. (connect timeout=None)'))
+2025-04-01 14:07:29.408 | ERROR    | src.ui.main_window:query_device_info:101 - 查询设备信息失败: HTTPConnectionPool(host='10.160.129.253', port=1448): Max retries exceeded with url: /api/core/system/v1/power/status (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001F54AE4CE20>, 'Connection to 10.160.129.253 timed out. (connect timeout=None)'))
+2025-04-01 14:07:50.902 | ERROR    | src.ui.main_window:query_device_info:101 - 查询设备信息失败: HTTPConnectionPool(host='10.160.129.253', port=1448): Max retries exceeded with url: /api/core/system/v1/power/status (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001F54AE4D040>, 'Connection to 10.160.129.253 timed out. (connect timeout=None)'))
+2025-04-01 14:08:02.099 | ERROR    | src.ui.main_window:query_device_info:101 - 查询设备信息失败: HTTPConnectionPool(host='10.160.129.253', port=1448): Max retries exceeded with url: /api/core/system/v1/power/status (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F548EAFDF0>: Failed to establish a new connection: [WinError 10053] 你的主机中的软件中止了一个已建立的连接。'))
+2025-04-01 14:10:17.440 | INFO     | src.ui.connection_widget:handle_connection:212 - 已连接到设备 10.160.129.218:1448
+2025-04-01 14:13:35.700 | INFO     | src.ui.connection_widget:handle_connection:234 - 已断开设备连接
+2025-04-01 14:13:40.276 | INFO     | src.ui.connection_widget:handle_connection:234 - 已断开设备连接
+2025-04-01 14:18:24.767 | INFO     | src.ui.connection_widget:handle_connection:212 - 已连接到设备 10.160.129.66:1448
+2025-04-01 14:18:37.614 | INFO     | src.ui.connection_widget:handle_connection:234 - 已断开设备连接
+2025-04-01 14:44:11.297 | INFO     | src.ui.connection_widget:handle_connection:212 - 已连接到设备 10.160.129.66:1448
+2025-04-01 14:44:32.058 | ERROR    | src.ui.main_window:query_device_info:101 - 查询设备信息失败: 500 Server Error: Internal Error for url: http://10.160.129.66:1448/api/core/slam/v1/localization/quality
+2025-04-01 14:44:32.254 | ERROR    | src.ui.main_window:query_device_info:101 - 查询设备信息失败: 500 Server Error: Internal Error for url: http://10.160.129.66:1448/api/core/system/v1/power/status
+2025-04-01 14:44:32.779 | ERROR    | src.ui.main_window:query_device_info:101 - 查询设备信息失败: 500 Server Error: Internal Error for url: http://10.160.129.66:1448/api/core/system/v1/power/status
+2025-04-01 14:44:33.260 | ERROR    | src.ui.main_window:query_device_info:101 - 查询设备信息失败: 500 Server Error: Internal Error for url: http://10.160.129.66:1448/api/core/system/v1/power/status
+2025-04-01 14:44:33.780 | ERROR    | src.ui.main_window:query_device_info:101 - 查询设备信息失败: 500 Server Error: Internal Error for url: http://10.160.129.66:1448/api/core/system/v1/power/status
+2025-04-01 14:44:34.252 | ERROR    | src.ui.main_window:query_device_info:101 - 查询设备信息失败: 500 Server Error: Internal Error for url: http://10.160.129.66:1448/api/core/system/v1/power/status
+2025-04-01 14:44:36.052 | INFO     | src.ui.connection_widget:handle_connection:212 - 已连接到设备 10.160.129.253:1448
+2025-04-01 14:44:36.940 | ERROR    | src.ui.main_window:query_device_info:101 - 查询设备信息失败: HTTPConnectionPool(host='10.160.129.66', port=1448): Max retries exceeded with url: /api/core/system/v1/power/status (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000020FFE9B6F90>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2025-04-01 14:44:39.392 | ERROR    | src.ui.main_window:query_device_info:101 - 查询设备信息失败: HTTPConnectionPool(host='10.160.129.66', port=1448): Max retries exceeded with url: /api/core/system/v1/power/status (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000020FFEA29090>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2025-04-01 14:44:42.035 | ERROR    | src.ui.main_window:query_device_info:101 - 查询设备信息失败: HTTPConnectionPool(host='10.160.129.66', port=1448): Max retries exceeded with url: /api/core/system/v1/power/status (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000020FFEA29590>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2025-04-01 14:44:44.419 | ERROR    | src.ui.main_window:query_device_info:101 - 查询设备信息失败: HTTPConnectionPool(host='10.160.129.66', port=1448): Max retries exceeded with url: /api/core/system/v1/power/status (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000020FFE92E3F0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2025-04-01 14:44:47.010 | ERROR    | src.ui.main_window:query_device_info:101 - 查询设备信息失败: HTTPConnectionPool(host='10.160.129.66', port=1448): Max retries exceeded with url: /api/core/system/v1/power/status (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000020FFE92E2C0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2025-04-01 14:44:49.436 | ERROR    | src.ui.main_window:query_device_info:101 - 查询设备信息失败: HTTPConnectionPool(host='10.160.129.66', port=1448): Max retries exceeded with url: /api/core/system/v1/power/status (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000020FFE9E2210>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2025-04-01 14:44:52.034 | ERROR    | src.ui.main_window:query_device_info:101 - 查询设备信息失败: HTTPConnectionPool(host='10.160.129.66', port=1448): Max retries exceeded with url: /api/core/system/v1/power/status (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000020F8113C270>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2025-04-01 14:44:54.623 | ERROR    | src.ui.main_window:query_device_info:101 - 查询设备信息失败: HTTPConnectionPool(host='10.160.129.66', port=1448): Max retries exceeded with url: /api/core/system/v1/power/status (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000020F8113C490>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2025-04-01 14:44:57.002 | ERROR    | src.ui.main_window:query_device_info:101 - 查询设备信息失败: HTTPConnectionPool(host='10.160.129.66', port=1448): Max retries exceeded with url: /api/core/system/v1/power/status (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000020F8113C6B0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2025-04-01 14:44:59.402 | ERROR    | src.ui.main_window:query_device_info:101 - 查询设备信息失败: HTTPConnectionPool(host='10.160.129.66', port=1448): Max retries exceeded with url: /api/core/system/v1/power/status (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000020F8113C8D0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2025-04-01 14:45:00.987 | ERROR    | src.ui.main_window:query_device_info:101 - 查询设备信息失败: 404 Client Error: Not Found for url: http://10.160.129.66:1448/api/core/system/v1/power/status
+2025-04-01 14:45:01.268 | ERROR    | src.ui.main_window:query_device_info:101 - 查询设备信息失败: 404 Client Error: Not Found for url: http://10.160.129.66:1448/api/core/system/v1/power/status
+2025-04-01 14:45:01.818 | ERROR    | src.ui.main_window:query_device_info:101 - 查询设备信息失败: 404 Client Error: Not Found for url: http://10.160.129.66:1448/api/core/system/v1/power/status
+2025-04-01 14:45:02.270 | ERROR    | src.ui.main_window:query_device_info:101 - 查询设备信息失败: 404 Client Error: Not Found for url: http://10.160.129.66:1448/api/core/system/v1/power/status
+2025-04-01 14:45:02.816 | ERROR    | src.ui.main_window:query_device_info:101 - 查询设备信息失败: 404 Client Error: Not Found for url: http://10.160.129.66:1448/api/core/system/v1/power/status
+2025-04-01 14:45:03.310 | ERROR    | src.ui.main_window:query_device_info:101 - 查询设备信息失败: 404 Client Error: Not Found for url: http://10.160.129.66:1448/api/core/system/v1/power/status
+2025-04-01 14:45:03.848 | ERROR    | src.ui.main_window:query_device_info:101 - 查询设备信息失败: 404 Client Error: Not Found for url: http://10.160.129.66:1448/api/core/system/v1/power/status
+2025-04-01 14:45:04.271 | ERROR    | src.ui.main_window:query_device_info:101 - 查询设备信息失败: 404 Client Error: Not Found for url: http://10.160.129.66:1448/api/core/system/v1/power/status
+2025-04-01 14:45:04.909 | ERROR    | src.ui.main_window:query_device_info:101 - 查询设备信息失败: 404 Client Error: Not Found for url: http://10.160.129.66:1448/api/core/system/v1/power/status
+2025-04-01 14:45:05.263 | ERROR    | src.ui.main_window:query_device_info:101 - 查询设备信息失败: 404 Client Error: Not Found for url: http://10.160.129.66:1448/api/core/system/v1/power/status
+2025-04-01 14:45:05.803 | ERROR    | src.ui.main_window:query_device_info:101 - 查询设备信息失败: 404 Client Error: Not Found for url: http://10.160.129.66:1448/api/core/system/v1/power/status
+2025-04-01 14:45:06.288 | ERROR    | src.ui.main_window:query_device_info:101 - 查询设备信息失败: 404 Client Error: Not Found for url: http://10.160.129.66:1448/api/core/system/v1/power/status
+2025-04-01 14:45:06.852 | ERROR    | src.ui.main_window:query_device_info:101 - 查询设备信息失败: 404 Client Error: Not Found for url: http://10.160.129.66:1448/api/core/system/v1/power/status
+2025-04-01 14:45:07.268 | ERROR    | src.ui.main_window:query_device_info:101 - 查询设备信息失败: 404 Client Error: Not Found for url: http://10.160.129.66:1448/api/core/system/v1/power/status
+2025-04-01 14:45:07.900 | ERROR    | src.ui.main_window:query_device_info:101 - 查询设备信息失败: 404 Client Error: Not Found for url: http://10.160.129.66:1448/api/core/system/v1/power/status
+2025-04-01 14:45:08.269 | ERROR    | src.ui.main_window:query_device_info:101 - 查询设备信息失败: 404 Client Error: Not Found for url: http://10.160.129.66:1448/api/core/system/v1/power/status
+2025-04-01 14:45:08.803 | ERROR    | src.ui.main_window:query_device_info:101 - 查询设备信息失败: 404 Client Error: Not Found for url: http://10.160.129.66:1448/api/core/system/v1/power/status
+2025-04-01 14:45:09.296 | ERROR    | src.ui.main_window:query_device_info:101 - 查询设备信息失败: 404 Client Error: Not Found for url: http://10.160.129.66:1448/api/core/system/v1/power/status
+2025-04-01 14:45:09.808 | ERROR    | src.ui.main_window:query_device_info:101 - 查询设备信息失败: 404 Client Error: Not Found for url: http://10.160.129.66:1448/api/core/system/v1/power/status
+2025-04-01 14:45:10.281 | ERROR    | src.ui.main_window:query_device_info:101 - 查询设备信息失败: 404 Client Error: Not Found for url: http://10.160.129.66:1448/api/core/system/v1/power/status
+2025-04-01 14:45:10.809 | ERROR    | src.ui.main_window:query_device_info:101 - 查询设备信息失败: 404 Client Error: Not Found for url: http://10.160.129.66:1448/api/core/system/v1/power/status
+2025-04-01 14:45:12.001 | INFO     | src.ui.connection_widget:handle_connection:234 - 已断开设备连接
+2025-04-01 14:45:13.497 | INFO     | src.ui.connection_widget:handle_connection:234 - 已断开设备连接
+2025-04-01 22:36:29.430 | INFO     | src.ui.connection_widget:handle_connection:212 - 已连接到设备 10.160.129.253:1448
+2025-04-01 22:36:58.409 | ERROR    | src.ui.api_test_widget:move_shelf:343 - 搬运货架失败: 400 Client Error: Can not create action for url: http://10.160.129.253:1448/api/core/motion/v1/actions
+2025-04-01 22:37:01.584 | INFO     | src.ui.connection_widget:handle_connection:234 - 已断开设备连接
+2025-04-01 22:37:05.919 | INFO     | src.ui.connection_widget:handle_connection:212 - 已连接到设备 10.160.129.66:1448
+2025-04-01 22:37:09.977 | DEBUG    | src.api.robot_api:get_current_action:257 - 任务状态更新: action_id=92, stage=, status=1, result=0
+2025-04-01 22:37:09.977 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=92, stage=, status=1, result=0
+2025-04-01 22:37:10.977 | DEBUG    | src.api.robot_api:get_current_action:257 - 任务状态更新: action_id=92, stage=, status=1, result=0
+2025-04-01 22:37:10.977 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=92, stage=, status=1, result=0
+2025-04-01 22:37:11.952 | DEBUG    | src.api.robot_api:get_current_action:257 - 任务状态更新: action_id=92, stage=, status=1, result=0
+2025-04-01 22:37:11.954 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=92, stage=, status=1, result=0
+2025-04-01 22:37:12.966 | DEBUG    | src.api.robot_api:get_current_action:257 - 任务状态更新: action_id=92, stage=, status=1, result=0
+2025-04-01 22:37:12.967 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=92, stage=, status=1, result=0
+2025-04-01 22:37:13.957 | DEBUG    | src.api.robot_api:get_current_action:257 - 任务状态更新: action_id=92, stage=, status=1, result=0
+2025-04-01 22:37:13.958 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=92, stage=, status=1, result=0
+2025-04-01 22:37:14.957 | DEBUG    | src.api.robot_api:get_current_action:257 - 任务状态更新: action_id=92, stage=, status=1, result=0
+2025-04-01 22:37:14.957 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=92, stage=, status=1, result=0
+2025-04-01 22:37:15.049 | INFO     | src.ui.api_test_widget:go_home:596 - 正在执行回桩...
+2025-04-01 22:37:15.074 | INFO     | src.ui.api_test_widget:go_home:602 - 回桩完成
+2025-04-01 22:37:15.966 | DEBUG    | src.api.robot_api:get_current_action:257 - 任务状态更新: action_id=93, stage=GOING_TO_LANDING_POINT, status=1, result=0
+2025-04-01 22:37:15.966 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=93, stage=GOING_TO_LANDING_POINT, status=1, result=0
+2025-04-01 22:37:16.950 | DEBUG    | src.api.robot_api:get_current_action:257 - 任务状态更新: action_id=93, stage=GOING_TO_LANDING_POINT, status=1, result=0
+2025-04-01 22:37:16.951 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=93, stage=GOING_TO_LANDING_POINT, status=1, result=0
+2025-04-01 22:37:17.961 | DEBUG    | src.api.robot_api:get_current_action:257 - 任务状态更新: action_id=93, stage=GOING_TO_LANDING_POINT, status=1, result=0
+2025-04-01 22:37:17.961 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=93, stage=GOING_TO_LANDING_POINT, status=1, result=0
+2025-04-01 22:37:18.958 | DEBUG    | src.api.robot_api:get_current_action:257 - 任务状态更新: action_id=93, stage=GOING_TO_LANDING_POINT, status=1, result=0
+2025-04-01 22:37:18.959 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=93, stage=GOING_TO_LANDING_POINT, status=1, result=0
+2025-04-01 22:37:19.976 | DEBUG    | src.api.robot_api:get_current_action:257 - 任务状态更新: action_id=93, stage=GOING_TO_LANDING_POINT, status=1, result=0
+2025-04-01 22:37:19.976 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=93, stage=GOING_TO_LANDING_POINT, status=1, result=0
+2025-04-01 22:37:20.951 | DEBUG    | src.api.robot_api:get_current_action:257 - 任务状态更新: action_id=93, stage=GOING_TO_LANDING_POINT, status=1, result=0
+2025-04-01 22:37:20.951 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=93, stage=GOING_TO_LANDING_POINT, status=1, result=0
+2025-04-01 22:37:21.948 | DEBUG    | src.api.robot_api:get_current_action:257 - 任务状态更新: action_id=93, stage=GOING_TO_LANDING_POINT, status=1, result=0
+2025-04-01 22:37:21.949 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=93, stage=GOING_TO_LANDING_POINT, status=1, result=0
+2025-04-01 22:37:22.950 | DEBUG    | src.api.robot_api:get_current_action:257 - 任务状态更新: action_id=93, stage=GOING_TO_LANDING_POINT, status=1, result=0
+2025-04-01 22:37:22.950 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=93, stage=GOING_TO_LANDING_POINT, status=1, result=0
+2025-04-01 22:37:23.955 | DEBUG    | src.api.robot_api:get_current_action:257 - 任务状态更新: action_id=93, stage=GOING_TO_LANDING_POINT, status=1, result=0
+2025-04-01 22:37:23.956 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=93, stage=GOING_TO_LANDING_POINT, status=1, result=0
+2025-04-01 22:37:24.968 | DEBUG    | src.api.robot_api:get_current_action:257 - 任务状态更新: action_id=93, stage=GOING_TO_LANDING_POINT, status=1, result=0
+2025-04-01 22:37:24.969 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=93, stage=GOING_TO_LANDING_POINT, status=1, result=0
+2025-04-01 22:37:26.026 | DEBUG    | src.api.robot_api:get_current_action:257 - 任务状态更新: action_id=93, stage=GOING_TO_LANDING_POINT, status=1, result=0
+2025-04-01 22:37:26.027 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=93, stage=GOING_TO_LANDING_POINT, status=1, result=0
+2025-04-01 22:37:26.959 | DEBUG    | src.api.robot_api:get_current_action:257 - 任务状态更新: action_id=94, stage=, status=1, result=0
+2025-04-01 22:37:26.961 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=94, stage=, status=1, result=0
+2025-04-01 22:37:27.959 | DEBUG    | src.api.robot_api:get_current_action:257 - 任务状态更新: action_id=94, stage=, status=1, result=0
+2025-04-01 22:37:27.960 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=94, stage=, status=1, result=0
+2025-04-01 22:37:28.995 | DEBUG    | src.api.robot_api:get_current_action:257 - 任务状态更新: action_id=94, stage=, status=1, result=0
+2025-04-01 22:37:28.995 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=94, stage=, status=1, result=0
+2025-04-01 22:37:29.975 | DEBUG    | src.api.robot_api:get_current_action:257 - 任务状态更新: action_id=94, stage=, status=1, result=0
+2025-04-01 22:37:29.976 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=94, stage=, status=1, result=0
+2025-04-01 22:37:30.969 | DEBUG    | src.api.robot_api:get_current_action:257 - 任务状态更新: action_id=94, stage=, status=1, result=0
+2025-04-01 22:37:30.970 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=94, stage=, status=1, result=0
+2025-04-01 22:37:31.968 | DEBUG    | src.api.robot_api:get_current_action:257 - 任务状态更新: action_id=94, stage=, status=1, result=0
+2025-04-01 22:37:31.969 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=94, stage=, status=1, result=0
+2025-04-01 22:37:32.966 | DEBUG    | src.api.robot_api:get_current_action:257 - 任务状态更新: action_id=94, stage=, status=1, result=0
+2025-04-01 22:37:32.966 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=94, stage=, status=1, result=0
+2025-04-01 22:37:33.960 | DEBUG    | src.api.robot_api:get_current_action:257 - 任务状态更新: action_id=94, stage=, status=1, result=0
+2025-04-01 22:37:33.961 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=94, stage=, status=1, result=0
+2025-04-01 22:37:34.959 | DEBUG    | src.api.robot_api:get_current_action:257 - 任务状态更新: action_id=94, stage=, status=1, result=0
+2025-04-01 22:37:34.961 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=94, stage=, status=1, result=0
+2025-04-01 22:37:35.960 | DEBUG    | src.api.robot_api:get_current_action:257 - 任务状态更新: action_id=94, stage=, status=1, result=0
+2025-04-01 22:37:35.961 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=94, stage=, status=1, result=0
+2025-04-01 22:37:36.951 | DEBUG    | src.api.robot_api:get_current_action:257 - 任务状态更新: action_id=94, stage=, status=1, result=0
+2025-04-01 22:37:36.959 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=94, stage=, status=1, result=0
+2025-04-01 22:37:37.984 | DEBUG    | src.api.robot_api:get_current_action:257 - 任务状态更新: action_id=94, stage=, status=1, result=0
+2025-04-01 22:37:37.984 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=94, stage=, status=1, result=0
+2025-04-01 22:37:38.957 | DEBUG    | src.api.robot_api:get_current_action:257 - 任务状态更新: action_id=94, stage=, status=1, result=0
+2025-04-01 22:37:38.958 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=94, stage=, status=1, result=0
+2025-04-01 22:37:39.947 | DEBUG    | src.api.robot_api:get_current_action:257 - 任务状态更新: action_id=94, stage=, status=1, result=0
+2025-04-01 22:37:39.948 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=94, stage=, status=1, result=0
+2025-04-01 22:37:40.945 | DEBUG    | src.api.robot_api:get_current_action:257 - 任务状态更新: action_id=94, stage=, status=1, result=0
+2025-04-01 22:37:40.946 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=94, stage=, status=1, result=0
+2025-04-01 22:37:41.970 | DEBUG    | src.api.robot_api:get_current_action:257 - 任务状态更新: action_id=94, stage=, status=1, result=0
+2025-04-01 22:37:41.971 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=94, stage=, status=1, result=0
+2025-04-01 22:37:42.988 | DEBUG    | src.api.robot_api:get_current_action:257 - 任务状态更新: action_id=94, stage=, status=1, result=0
+2025-04-01 22:37:42.989 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=94, stage=, status=1, result=0
+2025-04-01 22:37:43.990 | DEBUG    | src.api.robot_api:get_current_action:257 - 任务状态更新: action_id=94, stage=, status=1, result=0
+2025-04-01 22:37:43.990 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=94, stage=, status=1, result=0
+2025-04-01 22:37:44.963 | DEBUG    | src.api.robot_api:get_current_action:257 - 任务状态更新: action_id=94, stage=, status=1, result=0
+2025-04-01 22:37:44.964 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=94, stage=, status=1, result=0
+2025-04-01 22:37:45.971 | DEBUG    | src.api.robot_api:get_current_action:257 - 任务状态更新: action_id=94, stage=, status=1, result=0
+2025-04-01 22:37:45.972 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=94, stage=, status=1, result=0
+2025-04-01 22:37:46.971 | DEBUG    | src.api.robot_api:get_current_action:257 - 任务状态更新: action_id=94, stage=, status=1, result=0
+2025-04-01 22:37:46.972 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=94, stage=, status=1, result=0
+2025-04-01 22:37:47.953 | DEBUG    | src.api.robot_api:get_current_action:257 - 任务状态更新: action_id=94, stage=, status=1, result=0
+2025-04-01 22:37:47.953 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=94, stage=, status=1, result=0
+2025-04-01 22:37:48.959 | DEBUG    | src.api.robot_api:get_current_action:257 - 任务状态更新: action_id=94, stage=, status=1, result=0
+2025-04-01 22:37:48.960 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=94, stage=, status=1, result=0
+2025-04-01 22:37:49.957 | DEBUG    | src.api.robot_api:get_current_action:257 - 任务状态更新: action_id=94, stage=, status=1, result=0
+2025-04-01 22:37:49.965 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=94, stage=, status=1, result=0
+2025-04-01 22:37:50.947 | DEBUG    | src.api.robot_api:get_current_action:257 - 任务状态更新: action_id=94, stage=, status=1, result=0
+2025-04-01 22:37:50.955 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=94, stage=, status=1, result=0
+2025-04-01 22:37:51.955 | DEBUG    | src.api.robot_api:get_current_action:257 - 任务状态更新: action_id=94, stage=, status=1, result=0
+2025-04-01 22:37:51.956 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=94, stage=, status=1, result=0
+2025-04-01 22:37:52.961 | DEBUG    | src.api.robot_api:get_current_action:257 - 任务状态更新: action_id=94, stage=, status=1, result=0
+2025-04-01 22:37:52.962 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=94, stage=, status=1, result=0
+2025-04-01 22:37:53.978 | DEBUG    | src.api.robot_api:get_current_action:257 - 任务状态更新: action_id=94, stage=, status=1, result=0
+2025-04-01 22:37:53.978 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=94, stage=, status=1, result=0
+2025-04-01 22:37:54.966 | DEBUG    | src.api.robot_api:get_current_action:257 - 任务状态更新: action_id=94, stage=, status=1, result=0
+2025-04-01 22:37:54.967 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=94, stage=, status=1, result=0
+2025-04-01 22:37:55.961 | DEBUG    | src.api.robot_api:get_current_action:257 - 任务状态更新: action_id=94, stage=, status=1, result=0
+2025-04-01 22:37:55.963 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=94, stage=, status=1, result=0
+2025-04-01 22:37:56.954 | DEBUG    | src.api.robot_api:get_current_action:257 - 任务状态更新: action_id=94, stage=, status=1, result=0
+2025-04-01 22:37:56.955 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=94, stage=, status=1, result=0
+2025-04-01 22:37:57.965 | DEBUG    | src.api.robot_api:get_current_action:257 - 任务状态更新: action_id=94, stage=, status=1, result=0
+2025-04-01 22:37:57.966 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=94, stage=, status=1, result=0
+2025-04-01 22:37:58.976 | DEBUG    | src.api.robot_api:get_current_action:257 - 任务状态更新: action_id=94, stage=, status=1, result=0
+2025-04-01 22:37:58.977 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=94, stage=, status=1, result=0
+2025-04-01 22:37:59.963 | DEBUG    | src.api.robot_api:get_current_action:257 - 任务状态更新: action_id=94, stage=, status=1, result=0
+2025-04-01 22:37:59.964 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=94, stage=, status=1, result=0
+2025-04-01 22:38:00.965 | DEBUG    | src.api.robot_api:get_current_action:257 - 任务状态更新: action_id=94, stage=, status=1, result=0
+2025-04-01 22:38:00.966 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=94, stage=, status=1, result=0
+2025-04-01 22:38:01.959 | DEBUG    | src.api.robot_api:get_current_action:257 - 任务状态更新: action_id=94, stage=, status=1, result=0
+2025-04-01 22:38:01.960 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=94, stage=, status=1, result=0
+2025-04-01 22:38:02.981 | DEBUG    | src.api.robot_api:get_current_action:257 - 任务状态更新: action_id=94, stage=, status=1, result=0
+2025-04-01 22:38:02.982 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=94, stage=, status=1, result=0
+2025-04-01 22:38:03.958 | DEBUG    | src.api.robot_api:get_current_action:257 - 任务状态更新: action_id=94, stage=, status=1, result=0
+2025-04-01 22:38:03.959 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=94, stage=, status=1, result=0
+2025-04-01 22:38:04.970 | DEBUG    | src.api.robot_api:get_current_action:257 - 任务状态更新: action_id=94, stage=, status=1, result=0
+2025-04-01 22:38:04.971 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=94, stage=, status=1, result=0
+2025-04-01 22:38:05.955 | DEBUG    | src.api.robot_api:get_current_action:257 - 任务状态更新: action_id=94, stage=, status=1, result=0
+2025-04-01 22:38:05.956 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=94, stage=, status=1, result=0
+2025-04-01 22:38:06.961 | DEBUG    | src.api.robot_api:get_current_action:257 - 任务状态更新: action_id=94, stage=, status=1, result=0
+2025-04-01 22:38:06.962 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=94, stage=, status=1, result=0
+2025-04-01 22:38:07.954 | DEBUG    | src.api.robot_api:get_current_action:257 - 任务状态更新: action_id=94, stage=, status=1, result=0
+2025-04-01 22:38:07.955 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=94, stage=, status=1, result=0
+2025-04-01 22:38:08.959 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=94, stage=, status=4, result=0
+2025-04-01 22:38:09.963 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=94, stage=, status=4, result=0
+2025-04-01 22:38:10.967 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=94, stage=, status=4, result=0
+2025-04-01 22:38:11.963 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=94, stage=, status=4, result=0
+2025-04-01 22:38:12.989 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=94, stage=, status=4, result=0
+2025-04-01 22:38:13.957 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=94, stage=, status=4, result=0
+2025-04-01 22:38:14.968 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=94, stage=, status=4, result=0
+2025-04-01 22:38:15.950 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=94, stage=, status=4, result=0
+2025-04-01 22:38:16.965 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=94, stage=, status=4, result=0
+2025-04-01 22:38:17.965 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=94, stage=, status=4, result=0
+2025-04-01 22:38:18.958 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=94, stage=, status=4, result=0
+2025-04-01 22:38:19.948 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=94, stage=, status=4, result=0
+2025-04-01 22:38:20.968 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=94, stage=, status=4, result=0
+2025-04-01 22:38:21.960 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=94, stage=, status=4, result=0
+2025-04-01 22:38:22.963 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=94, stage=, status=4, result=0
+2025-04-01 22:38:23.992 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=94, stage=, status=4, result=0
+2025-04-01 22:38:24.957 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=94, stage=, status=4, result=0
+2025-04-01 22:38:25.967 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=94, stage=, status=4, result=0
+2025-04-01 22:38:26.971 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=94, stage=, status=4, result=0
+2025-04-01 22:38:27.984 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=94, stage=, status=4, result=0
+2025-04-01 22:38:28.957 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=94, stage=, status=4, result=0
+2025-04-01 22:38:29.959 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=94, stage=, status=4, result=0
+2025-04-01 22:38:30.966 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=94, stage=, status=4, result=0
+2025-04-01 22:38:30.969 | INFO     | src.ui.connection_widget:handle_connection:234 - 已断开设备连接
+2025-04-01 22:39:43.523 | INFO     | src.ui.connection_widget:handle_connection:212 - 已连接到设备 10.160.129.66:1448
+2025-04-01 22:40:10.614 | INFO     | src.ui.api_test_widget:lower_shelf:536 - 正在放下货架...
+2025-04-01 22:40:10.649 | INFO     | src.ui.api_test_widget:lower_shelf:542 - 货架放下完成
+2025-04-01 22:40:11.604 | DEBUG    | src.api.robot_api:get_current_action:257 - 任务状态更新: action_id=95, stage=MOVING, status=1, result=0
+2025-04-01 22:40:11.605 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=95, stage=MOVING, status=1, result=0
+2025-04-01 22:40:12.593 | DEBUG    | src.api.robot_api:get_current_action:257 - 任务状态更新: action_id=95, stage=MOVING, status=1, result=0
+2025-04-01 22:40:12.594 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=95, stage=MOVING, status=1, result=0
+2025-04-01 22:40:13.591 | DEBUG    | src.api.robot_api:get_current_action:257 - 任务状态更新: action_id=95, stage=MOVING, status=1, result=0
+2025-04-01 22:40:13.591 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=95, stage=MOVING, status=1, result=0
+2025-04-01 22:40:14.584 | DEBUG    | src.api.robot_api:get_current_action:257 - 任务状态更新: action_id=95, stage=MOVING, status=1, result=0
+2025-04-01 22:40:14.588 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=95, stage=MOVING, status=1, result=0
+2025-04-01 22:40:15.563 | DEBUG    | src.api.robot_api:get_current_action:257 - 任务状态更新: action_id=95, stage=MOVING, status=1, result=0
+2025-04-01 22:40:15.564 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=95, stage=MOVING, status=1, result=0
+2025-04-01 22:40:16.565 | DEBUG    | src.api.robot_api:get_current_action:257 - 任务状态更新: action_id=95, stage=MOVING, status=1, result=0
+2025-04-01 22:40:16.566 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=95, stage=MOVING, status=1, result=0
+2025-04-01 22:40:17.562 | DEBUG    | src.api.robot_api:get_current_action:257 - 任务状态更新: action_id=95, stage=MOVING, status=1, result=0
+2025-04-01 22:40:17.563 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=95, stage=MOVING, status=1, result=0
+2025-04-01 22:40:18.564 | DEBUG    | src.api.robot_api:get_current_action:257 - 任务状态更新: action_id=95, stage=MOVING, status=1, result=0
+2025-04-01 22:40:18.565 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=95, stage=MOVING, status=1, result=0
+2025-04-01 22:40:19.569 | DEBUG    | src.api.robot_api:get_current_action:257 - 任务状态更新: action_id=95, stage=MOVING, status=1, result=0
+2025-04-01 22:40:19.569 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=95, stage=MOVING, status=1, result=0
+2025-04-01 22:40:20.562 | DEBUG    | src.api.robot_api:get_current_action:257 - 任务状态更新: action_id=95, stage=MOVING, status=1, result=0
+2025-04-01 22:40:20.563 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=95, stage=MOVING, status=1, result=0
+2025-04-01 22:40:21.562 | DEBUG    | src.api.robot_api:get_current_action:257 - 任务状态更新: action_id=95, stage=MOVING, status=1, result=0
+2025-04-01 22:40:21.562 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=95, stage=MOVING, status=1, result=0
+2025-04-01 22:40:22.565 | DEBUG    | src.api.robot_api:get_current_action:257 - 任务状态更新: action_id=95, stage=MOVING, status=1, result=0
+2025-04-01 22:40:22.566 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=95, stage=MOVING, status=1, result=0
+2025-04-01 22:40:23.567 | DEBUG    | src.api.robot_api:get_current_action:257 - 任务状态更新: action_id=95, stage=MOVING, status=1, result=0
+2025-04-01 22:40:23.568 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=95, stage=MOVING, status=1, result=0
+2025-04-01 22:40:24.565 | DEBUG    | src.api.robot_api:get_current_action:257 - 任务状态更新: action_id=95, stage=MOVING, status=1, result=0
+2025-04-01 22:40:24.566 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=95, stage=MOVING, status=1, result=0
+2025-04-01 22:40:25.567 | DEBUG    | src.api.robot_api:get_current_action:257 - 任务状态更新: action_id=95, stage=MOVING, status=1, result=0
+2025-04-01 22:40:25.568 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=95, stage=MOVING, status=1, result=0
+2025-04-01 22:40:26.569 | DEBUG    | src.api.robot_api:get_current_action:257 - 任务状态更新: action_id=95, stage=MOVING, status=1, result=0
+2025-04-01 22:40:26.570 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=95, stage=MOVING, status=1, result=0
+2025-04-01 22:40:27.562 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=95, stage=, status=4, result=0
+2025-04-01 22:40:28.560 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=95, stage=, status=4, result=0
+2025-04-01 22:40:29.570 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=95, stage=, status=4, result=0
+2025-04-01 22:40:30.564 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=95, stage=, status=4, result=0
+2025-04-01 22:40:31.573 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=95, stage=, status=4, result=0
+2025-04-01 22:40:32.564 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=95, stage=, status=4, result=0
+2025-04-01 22:40:33.575 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=95, stage=, status=4, result=0
+2025-04-01 22:40:34.569 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=95, stage=, status=4, result=0
+2025-04-01 22:40:35.562 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=95, stage=, status=4, result=0
+2025-04-01 22:40:35.906 | INFO     | src.ui.api_test_widget:backoff_shelf:570 - 正在退出货架...
+2025-04-01 22:40:35.918 | INFO     | src.ui.api_test_widget:backoff_shelf:576 - 货架退出完成
+2025-04-01 22:40:36.566 | DEBUG    | src.api.robot_api:get_current_action:257 - 任务状态更新: action_id=96, stage=, status=1, result=0
+2025-04-01 22:40:36.566 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=96, stage=, status=1, result=0
+2025-04-01 22:40:37.583 | DEBUG    | src.api.robot_api:get_current_action:257 - 任务状态更新: action_id=96, stage=, status=1, result=0
+2025-04-01 22:40:37.598 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=96, stage=, status=1, result=0
+2025-04-01 22:40:38.573 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=96, stage=, status=4, result=-1
+2025-04-01 22:40:39.573 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=96, stage=, status=4, result=-1
+2025-04-01 22:40:40.563 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=96, stage=, status=4, result=-1
+2025-04-01 22:40:41.576 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=96, stage=, status=4, result=-1
+2025-04-01 22:40:42.580 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=96, stage=, status=4, result=-1
+2025-04-01 22:40:43.580 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=96, stage=, status=4, result=-1
+2025-04-01 22:40:44.572 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=96, stage=, status=4, result=-1
+2025-04-01 22:40:45.569 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=96, stage=, status=4, result=-1
+2025-04-01 22:40:46.576 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=96, stage=, status=4, result=-1
+2025-04-01 22:40:47.568 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=96, stage=, status=4, result=-1
+2025-04-01 22:40:48.792 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=96, stage=, status=4, result=-1
+2025-04-01 22:40:49.574 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=96, stage=, status=4, result=-1
+2025-04-01 22:40:50.579 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=96, stage=, status=4, result=-1
+2025-04-01 22:40:51.568 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=96, stage=, status=4, result=-1
+2025-04-01 22:40:52.578 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=96, stage=, status=4, result=-1
+2025-04-01 22:40:53.573 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=96, stage=, status=4, result=-1
+2025-04-01 22:40:54.589 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=96, stage=, status=4, result=-1
+2025-04-01 22:40:54.980 | INFO     | src.ui.api_test_widget:backoff_shelf:570 - 正在退出货架...
+2025-04-01 22:40:54.991 | INFO     | src.ui.api_test_widget:backoff_shelf:576 - 货架退出完成
+2025-04-01 22:40:55.557 | DEBUG    | src.api.robot_api:get_current_action:257 - 任务状态更新: action_id=97, stage=, status=1, result=0
+2025-04-01 22:40:55.558 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=97, stage=, status=1, result=0
+2025-04-01 22:40:56.575 | DEBUG    | src.api.robot_api:get_current_action:257 - 任务状态更新: action_id=97, stage=, status=1, result=0
+2025-04-01 22:40:56.575 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=97, stage=, status=1, result=0
+2025-04-01 22:40:57.564 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=97, stage=, status=4, result=-1
+2025-04-01 22:40:58.578 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=97, stage=, status=4, result=-1
+2025-04-01 22:40:59.579 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=97, stage=, status=4, result=-1
+2025-04-01 22:41:00.589 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=97, stage=, status=4, result=-1
+2025-04-01 22:41:01.596 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=97, stage=, status=4, result=-1
+2025-04-01 22:41:02.597 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=97, stage=, status=4, result=-1
+2025-04-01 22:41:03.577 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=97, stage=, status=4, result=-1
+2025-04-01 22:41:04.594 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=97, stage=, status=4, result=-1
+2025-04-01 22:41:05.580 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=97, stage=, status=4, result=-1
+2025-04-01 22:41:06.606 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=97, stage=, status=4, result=-1
+2025-04-01 22:41:07.557 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=97, stage=, status=4, result=-1
+2025-04-01 22:41:08.558 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=97, stage=, status=4, result=-1
+2025-04-01 22:41:09.582 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=97, stage=, status=4, result=-1
+2025-04-01 22:41:10.605 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=97, stage=, status=4, result=-1
+2025-04-01 22:41:11.578 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=97, stage=, status=4, result=-1
+2025-04-01 22:41:12.469 | INFO     | src.ui.api_test_widget:go_home:596 - 正在执行回桩...
+2025-04-01 22:41:12.481 | INFO     | src.ui.api_test_widget:go_home:602 - 回桩完成
+2025-04-01 22:41:12.567 | DEBUG    | src.api.robot_api:get_current_action:257 - 任务状态更新: action_id=98, stage=GOING_TO_LANDING_POINT, status=1, result=0
+2025-04-01 22:41:12.568 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=98, stage=GOING_TO_LANDING_POINT, status=1, result=0
+2025-04-01 22:41:13.565 | DEBUG    | src.api.robot_api:get_current_action:257 - 任务状态更新: action_id=98, stage=GOING_TO_LANDING_POINT, status=1, result=0
+2025-04-01 22:41:13.566 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=98, stage=GOING_TO_LANDING_POINT, status=1, result=0
+2025-04-01 22:41:14.602 | DEBUG    | src.api.robot_api:get_current_action:257 - 任务状态更新: action_id=98, stage=GOING_TO_LANDING_POINT, status=1, result=0
+2025-04-01 22:41:14.604 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=98, stage=GOING_TO_LANDING_POINT, status=1, result=0
+2025-04-01 22:41:15.572 | DEBUG    | src.api.robot_api:get_current_action:257 - 任务状态更新: action_id=98, stage=GOING_TO_LANDING_POINT, status=1, result=0
+2025-04-01 22:41:15.573 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=98, stage=GOING_TO_LANDING_POINT, status=1, result=0
+2025-04-01 22:41:16.612 | DEBUG    | src.api.robot_api:get_current_action:257 - 任务状态更新: action_id=98, stage=GOING_TO_LANDING_POINT, status=1, result=0
+2025-04-01 22:41:16.613 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=98, stage=GOING_TO_LANDING_POINT, status=1, result=0
+2025-04-01 22:41:17.570 | DEBUG    | src.api.robot_api:get_current_action:257 - 任务状态更新: action_id=98, stage=GOING_TO_LANDING_POINT, status=1, result=0
+2025-04-01 22:41:17.570 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=98, stage=GOING_TO_LANDING_POINT, status=1, result=0
+2025-04-01 22:41:18.577 | DEBUG    | src.api.robot_api:get_current_action:257 - 任务状态更新: action_id=98, stage=GOING_TO_LANDING_POINT, status=1, result=0
+2025-04-01 22:41:18.578 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=98, stage=GOING_TO_LANDING_POINT, status=1, result=0
+2025-04-01 22:41:19.588 | DEBUG    | src.api.robot_api:get_current_action:257 - 任务状态更新: action_id=98, stage=GOING_TO_LANDING_POINT, status=1, result=0
+2025-04-01 22:41:19.589 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=98, stage=GOING_TO_LANDING_POINT, status=1, result=0
+2025-04-01 22:41:20.582 | DEBUG    | src.api.robot_api:get_current_action:257 - 任务状态更新: action_id=98, stage=GOING_TO_LANDING_POINT, status=1, result=0
+2025-04-01 22:41:20.583 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=98, stage=GOING_TO_LANDING_POINT, status=1, result=0
+2025-04-01 22:41:21.567 | DEBUG    | src.api.robot_api:get_current_action:257 - 任务状态更新: action_id=98, stage=GOING_TO_LANDING_POINT, status=1, result=0
+2025-04-01 22:41:21.567 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=98, stage=GOING_TO_LANDING_POINT, status=1, result=0
+2025-04-01 22:41:22.571 | DEBUG    | src.api.robot_api:get_current_action:257 - 任务状态更新: action_id=98, stage=GOING_TO_LANDING_POINT, status=1, result=0
+2025-04-01 22:41:22.581 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=98, stage=GOING_TO_LANDING_POINT, status=1, result=0
+2025-04-01 22:41:23.576 | DEBUG    | src.api.robot_api:get_current_action:257 - 任务状态更新: action_id=98, stage=GOING_TO_LANDING_POINT, status=1, result=0
+2025-04-01 22:41:23.579 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=98, stage=GOING_TO_LANDING_POINT, status=1, result=0
+2025-04-01 22:41:24.561 | DEBUG    | src.api.robot_api:get_current_action:257 - 任务状态更新: action_id=98, stage=GOING_TO_LANDING_POINT, status=1, result=0
+2025-04-01 22:41:24.562 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=98, stage=GOING_TO_LANDING_POINT, status=1, result=0
+2025-04-01 22:41:25.569 | DEBUG    | src.api.robot_api:get_current_action:257 - 任务状态更新: action_id=98, stage=GOING_TO_LANDING_POINT, status=1, result=0
+2025-04-01 22:41:25.569 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=98, stage=GOING_TO_LANDING_POINT, status=1, result=0
+2025-04-01 22:41:26.573 | DEBUG    | src.api.robot_api:get_current_action:257 - 任务状态更新: action_id=98, stage=GOING_TO_LANDING_POINT, status=1, result=0
+2025-04-01 22:41:26.574 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=98, stage=GOING_TO_LANDING_POINT, status=1, result=0
+2025-04-01 22:41:27.562 | DEBUG    | src.api.robot_api:get_current_action:257 - 任务状态更新: action_id=98, stage=GOING_TO_LANDING_POINT, status=1, result=0
+2025-04-01 22:41:27.563 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=98, stage=GOING_TO_LANDING_POINT, status=1, result=0
+2025-04-01 22:41:28.565 | DEBUG    | src.api.robot_api:get_current_action:257 - 任务状态更新: action_id=98, stage=GOING_TO_LANDING_POINT, status=1, result=0
+2025-04-01 22:41:28.566 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=98, stage=GOING_TO_LANDING_POINT, status=1, result=0
+2025-04-01 22:41:29.572 | DEBUG    | src.api.robot_api:get_current_action:257 - 任务状态更新: action_id=98, stage=GOING_TO_LANDING_POINT, status=1, result=0
+2025-04-01 22:41:29.574 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=98, stage=GOING_TO_LANDING_POINT, status=1, result=0
+2025-04-01 22:41:30.569 | DEBUG    | src.api.robot_api:get_current_action:257 - 任务状态更新: action_id=98, stage=GOING_TO_LANDING_POINT, status=1, result=0
+2025-04-01 22:41:30.569 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=98, stage=GOING_TO_LANDING_POINT, status=1, result=0
+2025-04-01 22:41:31.585 | DEBUG    | src.api.robot_api:get_current_action:257 - 任务状态更新: action_id=98, stage=GOING_TO_LANDING_POINT, status=1, result=0
+2025-04-01 22:41:31.587 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=98, stage=GOING_TO_LANDING_POINT, status=1, result=0
+2025-04-01 22:41:32.573 | DEBUG    | src.api.robot_api:get_current_action:257 - 任务状态更新: action_id=98, stage=GOING_HOME, status=1, result=0
+2025-04-01 22:41:32.573 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=98, stage=GOING_HOME, status=1, result=0
+2025-04-01 22:41:33.574 | DEBUG    | src.api.robot_api:get_current_action:257 - 任务状态更新: action_id=98, stage=GOING_HOME, status=1, result=0
+2025-04-01 22:41:33.575 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=98, stage=GOING_HOME, status=1, result=0
+2025-04-01 22:41:34.575 | DEBUG    | src.api.robot_api:get_current_action:257 - 任务状态更新: action_id=98, stage=GOING_HOME, status=1, result=0
+2025-04-01 22:41:34.576 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=98, stage=GOING_HOME, status=1, result=0
+2025-04-01 22:41:35.557 | DEBUG    | src.api.robot_api:get_current_action:257 - 任务状态更新: action_id=98, stage=GOING_HOME, status=1, result=0
+2025-04-01 22:41:35.558 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=98, stage=GOING_HOME, status=1, result=0
+2025-04-01 22:41:36.593 | DEBUG    | src.api.robot_api:get_current_action:257 - 任务状态更新: action_id=98, stage=GOING_HOME, status=1, result=0
+2025-04-01 22:41:36.594 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=98, stage=GOING_HOME, status=1, result=0
+2025-04-01 22:41:37.566 | DEBUG    | src.api.robot_api:get_current_action:257 - 任务状态更新: action_id=98, stage=GOING_HOME, status=1, result=0
+2025-04-01 22:41:37.567 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=98, stage=GOING_HOME, status=1, result=0
+2025-04-01 22:41:38.577 | DEBUG    | src.api.robot_api:get_current_action:257 - 任务状态更新: action_id=98, stage=GOING_HOME, status=1, result=0
+2025-04-01 22:41:38.578 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=98, stage=GOING_HOME, status=1, result=0
+2025-04-01 22:41:39.588 | DEBUG    | src.api.robot_api:get_current_action:257 - 任务状态更新: action_id=98, stage=GOING_HOME, status=1, result=0
+2025-04-01 22:41:39.598 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=98, stage=GOING_HOME, status=1, result=0
+2025-04-01 22:41:40.570 | DEBUG    | src.api.robot_api:get_current_action:257 - 任务状态更新: action_id=98, stage=GOING_HOME, status=1, result=0
+2025-04-01 22:41:40.571 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=98, stage=GOING_HOME, status=1, result=0
+2025-04-01 22:41:41.564 | DEBUG    | src.api.robot_api:get_current_action:257 - 任务状态更新: action_id=98, stage=GOING_HOME, status=1, result=0
+2025-04-01 22:41:41.565 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=98, stage=GOING_HOME, status=1, result=0
+2025-04-01 22:41:42.601 | DEBUG    | src.api.robot_api:get_current_action:257 - 任务状态更新: action_id=98, stage=GOING_HOME, status=1, result=0
+2025-04-01 22:41:42.602 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=98, stage=GOING_HOME, status=1, result=0
+2025-04-01 22:41:43.571 | DEBUG    | src.api.robot_api:get_current_action:257 - 任务状态更新: action_id=98, stage=GOING_HOME, status=1, result=0
+2025-04-01 22:41:43.572 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=98, stage=GOING_HOME, status=1, result=0
+2025-04-01 22:41:44.562 | DEBUG    | src.api.robot_api:get_current_action:257 - 任务状态更新: action_id=98, stage=GOING_HOME, status=1, result=0
+2025-04-01 22:41:44.563 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=98, stage=GOING_HOME, status=1, result=0
+2025-04-01 22:41:45.600 | DEBUG    | src.api.robot_api:get_current_action:257 - 任务状态更新: action_id=98, stage=GOING_HOME, status=1, result=0
+2025-04-01 22:41:45.601 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=98, stage=GOING_HOME, status=1, result=0
+2025-04-01 22:41:46.569 | DEBUG    | src.api.robot_api:get_current_action:257 - 任务状态更新: action_id=98, stage=GOING_HOME, status=1, result=0
+2025-04-01 22:41:46.570 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=98, stage=GOING_HOME, status=1, result=0
+2025-04-01 22:41:47.556 | DEBUG    | src.api.robot_api:get_current_action:257 - 任务状态更新: action_id=98, stage=GOING_HOME, status=1, result=0
+2025-04-01 22:41:47.557 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=98, stage=GOING_HOME, status=1, result=0
+2025-04-01 22:41:48.583 | DEBUG    | src.api.robot_api:get_current_action:257 - 任务状态更新: action_id=98, stage=GOING_HOME, status=1, result=0
+2025-04-01 22:41:48.585 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=98, stage=GOING_HOME, status=1, result=0
+2025-04-01 22:41:49.578 | DEBUG    | src.api.robot_api:get_current_action:257 - 任务状态更新: action_id=98, stage=GOING_HOME, status=1, result=0
+2025-04-01 22:41:49.578 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=98, stage=GOING_HOME, status=1, result=0
+2025-04-01 22:41:50.583 | DEBUG    | src.api.robot_api:get_current_action:257 - 任务状态更新: action_id=98, stage=GOING_HOME, status=1, result=0
+2025-04-01 22:41:50.584 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=98, stage=GOING_HOME, status=1, result=0
+2025-04-01 22:41:51.567 | DEBUG    | src.api.robot_api:get_current_action:257 - 任务状态更新: action_id=98, stage=GOING_HOME, status=1, result=0
+2025-04-01 22:41:51.568 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=98, stage=GOING_HOME, status=1, result=0
+2025-04-01 22:41:52.566 | DEBUG    | src.api.robot_api:get_current_action:257 - 任务状态更新: action_id=98, stage=GOING_HOME, status=1, result=0
+2025-04-01 22:41:52.567 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=98, stage=GOING_HOME, status=1, result=0
+2025-04-01 22:41:53.573 | DEBUG    | src.api.robot_api:get_current_action:257 - 任务状态更新: action_id=98, stage=GOING_HOME, status=1, result=0
+2025-04-01 22:41:53.574 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=98, stage=GOING_HOME, status=1, result=0
+2025-04-01 22:41:54.566 | DEBUG    | src.api.robot_api:get_current_action:257 - 任务状态更新: action_id=98, stage=GOING_HOME, status=1, result=0
+2025-04-01 22:41:54.567 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=98, stage=GOING_HOME, status=1, result=0
+2025-04-01 22:41:55.564 | DEBUG    | src.api.robot_api:get_current_action:257 - 任务状态更新: action_id=98, stage=GOING_HOME, status=1, result=0
+2025-04-01 22:41:55.565 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=98, stage=GOING_HOME, status=1, result=0
+2025-04-01 22:41:56.644 | DEBUG    | src.api.robot_api:get_current_action:257 - 任务状态更新: action_id=98, stage=GOING_HOME, status=1, result=0
+2025-04-01 22:41:56.645 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=98, stage=GOING_HOME, status=1, result=0
+2025-04-01 22:41:57.584 | DEBUG    | src.api.robot_api:get_current_action:257 - 任务状态更新: action_id=98, stage=GOING_HOME, status=1, result=0
+2025-04-01 22:41:57.584 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=98, stage=GOING_HOME, status=1, result=0
+2025-04-01 22:41:58.583 | DEBUG    | src.api.robot_api:get_current_action:257 - 任务状态更新: action_id=98, stage=GOING_HOME, status=1, result=0
+2025-04-01 22:41:58.583 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=98, stage=GOING_HOME, status=1, result=0
+2025-04-01 22:41:59.586 | DEBUG    | src.api.robot_api:get_current_action:257 - 任务状态更新: action_id=98, stage=GOING_HOME, status=1, result=0
+2025-04-01 22:41:59.587 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=98, stage=GOING_HOME, status=1, result=0
+2025-04-01 22:42:00.575 | DEBUG    | src.api.robot_api:get_current_action:257 - 任务状态更新: action_id=98, stage=GOING_HOME, status=1, result=0
+2025-04-01 22:42:00.575 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=98, stage=GOING_HOME, status=1, result=0
+2025-04-01 22:42:01.585 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=98, stage=, status=4, result=0
+2025-04-01 22:42:02.579 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=98, stage=, status=4, result=0
+2025-04-01 22:42:03.565 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=98, stage=, status=4, result=0
+2025-04-01 22:42:04.585 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=98, stage=, status=4, result=0
+2025-04-01 22:42:05.560 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=98, stage=, status=4, result=0
+2025-04-01 22:42:06.586 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=98, stage=, status=4, result=0
+2025-04-01 22:42:07.562 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=98, stage=, status=4, result=0
+2025-04-01 22:42:07.794 | INFO     | src.ui.connection_widget:handle_connection:234 - 已断开设备连接
+2025-04-01 22:43:45.362 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=98, stage=, status=4, result=0
+2025-04-01 22:43:45.388 | INFO     | src.ui.connection_widget:handle_connection:212 - 已连接到设备 10.160.129.66:1448
+2025-04-01 22:43:46.410 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=98, stage=, status=4, result=0
+2025-04-01 22:43:47.409 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=98, stage=, status=4, result=0
+2025-04-01 22:43:48.404 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=98, stage=, status=4, result=0
+2025-04-01 22:43:49.418 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=98, stage=, status=4, result=0
+2025-04-01 22:43:50.430 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=98, stage=, status=4, result=0
+2025-04-01 22:43:51.430 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=98, stage=, status=4, result=0
+2025-04-01 22:43:52.412 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=98, stage=, status=4, result=0
+2025-04-01 22:43:53.417 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=98, stage=, status=4, result=0
+2025-04-01 22:43:54.422 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=98, stage=, status=4, result=0
+2025-04-01 22:43:55.411 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=98, stage=, status=4, result=0
+2025-04-01 22:43:56.425 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=98, stage=, status=4, result=0
+2025-04-01 22:43:57.514 | DEBUG    | src.ui.device_info_widget:_display_action_info:123 - 显示任务信息: action_id=98, stage=, status=4, result=0

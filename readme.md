@@ -296,6 +296,16 @@ Response: 200 OK
 }
 }
 }
+响应： {
+    "action_id": 17,
+    "action_name": "slamtec.agent.actions.JackTopMoveToAction",
+    "stage": "",
+    "state": {
+        "reason": "",    #如果 result 是-1，则该字段表示失败的原因
+        "result": 0,     #0：成功， -1： 失败， -2：被取消
+        "status": 0      #0：新创建，1：正在运行， 4：已结束
+    }
+}
 
   - `POST /api/core/motion/v1/actions` - 退出货架
  Response Body：    {
@@ -430,6 +440,18 @@ Response: 200 OK
   "hasWarning": true
 }
 
+- `GET /api/core/motion/v1/actions/:current` - 查询当前任务状态
+响应：
+{
+  "action_id": 0,
+  "action_name": "string",
+  "stage": "GOING_TO_TARGET",
+  "state": {
+    "status": 0,
+    "result": 0,
+    "reason": ""
+  }
+}
 
 
 # Slamtec API 调试工具

@@ -119,8 +119,31 @@ class RobotAPI:
                 "modify_params_move_options": {
                     "move_options": {
                         "mode": 0,
-                        "flags": ["precise", "with_yaw"],
-                        "yaw": 1.57
+                        "flags": ["precise", "with_yaw"]
+                    },
+                    "robot_line_speed": 0.7,
+                    "align_distance": -1,
+                    "backward_docking": True
+                }
+            }
+        }
+        response = self.session.post(url, json=data)
+        response.raise_for_status()
+        return response.json()
+    
+    def move_to_poi(self, poi_name: str):
+        """通过POI搬运货架"""
+        url = f"{self.base_url}/api/core/motion/v1/actions"
+        data = {
+            "action_name": "slamtec.agent.actions.JackTopMoveToAction",
+            "options": {
+                "target": {
+                    "poi_name": poi_name
+                },
+                "modify_params_move_options": {
+                    "move_options": {
+                        "mode": 0,
+                        "flags": ["precise", "with_yaw"]
                     },
                     "robot_line_speed": 0.7,
                     "align_distance": -1,
@@ -188,7 +211,58 @@ class RobotAPI:
                 f"{self.base_url}/api/core/motion/v1/actions/{action_id}"
             )
             response.raise_for_status()
-            return response.json()
+            data = response.json()
+            # 确保返回完整的任务信息
+            return {
+                'action_id': action_id,
+                'action_name': data.get('action_name', ''),
+                'stage': data.get('stage', ''),
+                'state': data.get('state', {
+                    'status': 0,
+                    'result': 0,
+                    'reason': ''
+                })
+            }
         except Exception as e:
             logger.error(f"获取action状态失败: {str(e)}")
-            raise 
+            raise
+
+    def get_current_action(self):
+        """获取当前任务状态"""
+        try:
+            # 获取当前任务的基本信息
+            response = self.session.get(
+                f"{self.base_url}/api/core/motion/v1/actions/:current"
+            )
+            
+            # 如果是404错误，说明当前没有任务
+            if response.status_code == 404:
+                return None
+                
+            response.raise_for_status()
+            current_action = response.json()
+            
+            # 如果有正在执行的任务，获取其最新状态
+            if current_action and current_action.get('action_id', 0) > 0:
+                try:
+                    # 直接使用 get_action_status 方法获取最新状态
+                    action_id = current_action['action_id']
+                    latest_status = self.get_action_status(action_id)
+                    
+                    # 合并最新状态信息
+                    if latest_status:
+                        current_action.update(latest_status)
+                    
+                    # 记录日志
+                    logger.debug(f"任务状态更新: action_id={action_id}, stage={current_action.get('stage')}, status={current_action.get('state', {}).get('status')}, result={current_action.get('state', {}).get('result')}")
+                    
+                except Exception as e:
+                    logger.error(f"获取任务{current_action['action_id']}状态失败: {str(e)}")
+            
+            return current_action
+            
+        except Exception as e:
+            if "404" in str(e):
+                return None
+            logger.error(f"获取当前任务状态失败: {str(e)}")
+            return None 

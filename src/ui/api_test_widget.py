@@ -308,7 +308,7 @@ class ApiTestWidget(QGroupBox):
                 if not poi_name:
                     QMessageBox.warning(self, "错误", "请输入POI名称")
                     return
-                response = self.api_client.dock_to_poi(poi_name)
+                response = self.api_client.move_to_poi(poi_name)
                 api_info["request"]["data"] = {
                     "action_name": "slamtec.agent.actions.JackTopMoveToAction",
                     "options": {
@@ -318,7 +318,7 @@ class ApiTestWidget(QGroupBox):
                         "modify_params_move_options": {
                             "move_options": {
                                 "mode": 0,                           
-                                "flags": ["precise", "with_yaw"],
+                                "flags": ["precise", "with_yaw"]
                             },
                             "robot_line_speed": 0.7,         
                             "align_distance": -1,         

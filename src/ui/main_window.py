@@ -39,7 +39,7 @@ class MainWindow(QMainWindow):
         # 创建定时器
         self.update_timer = QTimer()
         self.update_timer.timeout.connect(self.query_device_info)
-        self.update_timer.setInterval(500)  # 设置500ms的更新间隔
+        self.update_timer.setInterval(1000)  # 设置1000ms(1秒)的更新间隔
         
         # 连接信号
         self.connection_widget.connection_status_changed.connect(
@@ -93,8 +93,24 @@ class MainWindow(QMainWindow):
             # 查询定位质量
             localization_quality = self.device_info_widget.api_client.get("/api/core/slam/v1/localization/quality")
             
+            # 查询当前任务状态（包含最新的stage和state信息）
+            current_action = self.device_info_widget.api_client.get_current_action()
+            
+            # 如果没有任务，显示无任务状态
+            if current_action is None:
+                current_action = {
+                    "action_id": 0,
+                    "action_name": "无任务",
+                    "stage": "--",
+                    "state": {
+                        "status": 0,
+                        "result": 0,
+                        "reason": ""
+                    }
+                }
+            
             # 更新设备信息显示
-            self.device_info_widget.update_info(power_info, localization_quality)
+            self.device_info_widget.update_info(power_info, localization_quality, current_action)
             
         except Exception as e:
             error_msg = f"查询设备信息失败: {str(e)}"

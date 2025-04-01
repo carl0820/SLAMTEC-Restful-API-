@@ -14,3 +14,6 @@ import subprocess
 
 subprocess.run(["pip", "uninstall", "PyQt6", "PyQt6-Qt6", "PyQt6-sip", "-y"])
 subprocess.run(["pip", "install", "-r", "requirements.txt"])
+
+# 使用 pyinstaller 打包
+subprocess.run(["pyinstaller", "--onefile", "--distpath", "dist", "run.py"])
