@@ -20,6 +20,12 @@ wheels/
 .installed.cfg
 *.egg
 
+# PyInstaller
+build/
+dist/
+build_output/
+*.spec
+
 # Virtual Environment
 .env
 .venv
@@ -36,6 +42,10 @@ ENV/
 # Logs
 logs/
 *.log
+
+# System
+.DS_Store
+Thumbs.db
 
 # Local configuration
 connection_config.json 

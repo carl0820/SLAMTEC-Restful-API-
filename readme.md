@@ -604,3 +604,12 @@ git commit -m "初始化提交：添加项目文件"
   - 用途：本地数据存储和同步
 
 ## 更新项目结构
+
+```
+pyinstaller --onefile --name Slamtec_API_Tool --distpath dist run.py
+```
+
+这个命令会将 `run.py` 打包成一个名为 `Slamtec_API_Tool.exe` 的可执行文件，并将其放在 `dist` 目录中。
+
+请在命令提示符中执行上述命令，并确认 `run.py` 文件在当前目录中。如果有任何问题或需要进一步帮助，请告诉我。
+```
